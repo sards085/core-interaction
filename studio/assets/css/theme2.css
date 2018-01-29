@@ -1,0 +1,35 @@
+body{
+  background-color: #8f9194;
+  color: #b1b3b6;
+  font-family: "Arial";
+  font-size: 50px;
+  padding: 50px 300px 100px 100px;
+}
+
+a {
+  color: #b1b3b6;
+  font-family: "Garamond";
+  font-size: 51px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000ff;
+}
+
+.black {
+  border-bottom: 2px solid;
+  line-height: 50px;
+  margin: 20px 0;
+}
+
+.goback {
+  color: #000000;
+  font-family: "Garamond";
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.goback:hover {
+  color: #8f9194;
+}
