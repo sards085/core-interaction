@@ -1,0 +1,19 @@
+body{
+  background-color: white;
+  color: black;
+  font-family: "Arial";
+  font-size: 200px;
+  padding: 0px 0px 0px 50px;
+  line-height: 70%;
+}
+
+a {
+  color: black;
+  font-family: "Garamond";
+  font-size: 120px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
