@@ -17,3 +17,19 @@ a {
 a:hover {
   color: white;
 }
+
+#one, #two {
+  font-size: 70px;
+}
+
+#theme:hover {
+  color: grey;
+}
+
+#one:hover {
+  color:grey;
+}
+
+#two:hover {
+  color: #0000FF;
+}

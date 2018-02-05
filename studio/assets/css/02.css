@@ -1,5 +1,5 @@
 body{
-  background-color: #8f9194;
+  background-color: #0000FF;
   color: #b1b3b6;
   font-family: "Arial";
   font-size: 50px;
@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: #0000ff;
+  color: #0000FF;
 }
 
 .black {
@@ -31,5 +31,9 @@ a:hover {
 }
 
 .goback:hover {
-  color: #8f9194;
+  color: #0000FF;
+}
+
+::selection {
+  background: #000000;
 }
