@@ -51,7 +51,7 @@ body{
 }
 
 p {
-  color: white;
+  color: #0000B4;
   font-family: Arial;
   font-size: 50px;
   text-decoration: none;
@@ -62,11 +62,12 @@ p {
 a {
   text-decoration: none;
   font-family: Garamond;
-  color: white
+  color: #0000B4
 }
 
 a:hover {
   font-family: BRAILLE1;
   font-size: 28px;
   position: inherit;
+  color: white;
 }
