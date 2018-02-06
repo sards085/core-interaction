@@ -3,37 +3,64 @@ body{
   color: #b1b3b6;
   font-family: "Arial";
   font-size: 50px;
-  padding: 50px 300px 100px 100px;
+  padding: 200px 300px 100px 100px;
 }
 
-a {
-  color: #b1b3b6;
-  font-family: "Garamond";
-  font-size: 51px;
-  text-decoration: none;
+#grid img{
+  height: 110%;
+  width: 110%;
 }
 
-a:hover {
-  color: #0000FF;
+#grid img:hover {
+  background: url("../img/02-BRAILLE/braille_dots_nogrid-11.png") no-repeat scroll center center;
+  background-size: cover;
+  background-position: 0, 0;
 }
 
-.black {
-  border-bottom: 2px solid;
-  line-height: 50px;
-  margin: 20px 0;
+#nogrid img{
+  height: 110%;
+  width: 110%;
 }
 
-.goback {
+#nogrid img:hover {
+  background: url("../img/02-BRAILLE/braille_dots_nogrid-11.png") no-repeat scroll center center;
+  background-size: cover;
+  background-position: 0, 0;
+}
+
+
+.back {
   color: #000000;
   font-family: "Garamond";
   font-size: 50px;
   text-decoration: none;
+  margin-top: 100px;
 }
 
-.goback:hover {
+.back:hover {
   color: #0000FF;
 }
 
 ::selection {
   background: #000000;
+}
+
+p {
+  color: white;
+  font-family: Arial;
+  font-size: 50px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Garamond;
+  color: white
+}
+
+a:hover {
+  font-family: Braille Normal;
+  font-size: 28px;
+  position: inherit;
 }
