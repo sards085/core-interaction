@@ -1,0 +1,180 @@
+/* BASE STYLES */
+
+header, main, footer {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: unset;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+aside {
+    font-family: monospace;
+}
+
+.index {
+    display:flex;
+    margin: 0 50px 50px 50px;
+    flex: 1;
+}
+
+p {
+    margin: 50px;
+    flex: 1;
+}
+
+li {
+    margin: 0 50px 50px 50px;
+    align-items: center;
+}
+
+.MainNav {
+    flex-direction: column;
+    margin: 50px;
+    flex:1;
+}
+
+/* CHARACTERS */
+
+.character::before {
+    font-family: monospace;
+    text-transform: uppercase;
+    display: block;
+}
+
+.jules::before {
+    content: 'Jules';
+}
+
+.brett::before {
+    content: 'Brett';
+}
+
+.vincent::before {
+    content: 'Vincent';
+}
+
+.marvin::before {
+    content: 'Marvin';
+}
+
+.roger::before {
+    content: 'Roger';
+}
+
+/* CUSTOM STYLES */
+
+.jules {
+    padding-left: 50px;
+}
+
+.brett {
+    padding-left: 100px;
+}
+
+.vincent, .marvin, .roger {
+    padding-left: 150px;
+}
+
+aside, .characters {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: pink;
+    font-family: monospace;
+}
+
+/* SO FIG-2 AND FIG-3 DISPLAY SIDE BY SIDE, NOT STACKED  */
+
+.fig-wrapper-1 {
+    font-size: 0;
+}
+
+/* 50% = THE WIDTH OF ITS PARENT ELEMENT */
+/* MARGIN=OUTSIDE PADDING=INSIDE */
+
+.fig-2, .fig-3 {
+    width: calc(50% - 75px);
+    display: inline-block;
+    font-size: initial;
+    margin: 50px;
+}
+
+.fig-3 {
+    margin-left: 0px;
+}
+
+.fig-4 {
+    width: 50%;
+    float: left;
+    margin: 50px 50px 50px 0;
+}
+
+/* FLEX MAKES IT APPEAR NEXT TO EACHOTHER,SCALES NICELY */
+.fig-wrapper-2 {
+    display: flex;
+
+}
+
+.fig-wrapper-2 figure{
+    margin: 50px 0 50px 50px;
+}
+
+.fig-wrapper-2 figure:last-child {
+    margin-right: 50px;
+}
+
+.fig-wrapper-3 {
+    display:flex;
+    align-items: flex-end;
+}
+
+.fig-wrapper-3 figure{
+    margin: 50px 0 50px 50px;
+}
+
+.fig-wrapper-3 figure:last-child {
+    margin-right: 50px;
+}
+
+.fig-7 {
+    flex: 1;
+}
+
+.fig-8 {
+    flex: 2;
+}
+
+.fig-wrapper-4{
+    display:flex;
+}
+
+.fig-wrapper-4 figure {
+    margin: 50px 0 50px 50px;
+}
+
+.fig-wrapper-4 figure:lastchild{
+    margin-right: 50px;
+}
+
+.fig-wrapper-4 .fig-11 {
+  margin-top: 0;
+}
