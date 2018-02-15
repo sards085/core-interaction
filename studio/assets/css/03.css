@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/ucp7yvj.css");
+
+body{
+  background-color: white;
+  font-family: "dapifer";
+  font-size: 50px;
+  padding: 50px 300px 20px 100px;
+}
+
+.back {
+  color: #000000;
+  font-family: "Garamond";
+  font-size: 50px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.back:hover {
+  color: #0000FF;
+  font-family: "Garamond";
+}
+
+::selection {
+  background: #000000;
+  color: white;
+}
+
+.header {
+  color: black;
+  font-family: "saffran";
+  font-weight: 300px;
+  font-size: 80px;
+  text-decoration: none;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.subhead {
+  color: black;
+  font-family: "saffran";
+  font-weight: 300px;
+  font-size: 40px;
+  text-decoration: none;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.bodytext {
+  color: black;
+  font-family: "dapifer";
+  font-size: 30px;
+  line-height: 1.4em;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+.images img{
+  width: 800px;
+  margin-left: 100px;
+  margin: 0;
+  border: 1px solid;
+  border-color: black;
+}
+
+.specimen {
+  color: black;
+  font-family: "saffran";
+  font-weight: 300px;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "saffran";
+  color: grey;
+
+}
+
+a:hover {
+  font-family: "saffran";
+  position: inherit;
+  color: white;
+}
