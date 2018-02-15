@@ -18,7 +18,7 @@ a:hover {
   color: white;
 }
 
-#one, #two {
+#one, #two, #three {
   font-size: 70px;
 }
 
@@ -32,4 +32,8 @@ a:hover {
 
 #two:hover {
   color: #0000FF;
+}
+
+#three:hover {
+  color: white;
 }
