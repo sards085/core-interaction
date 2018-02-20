@@ -26,6 +26,10 @@ a:hover {
   font-size: 70px;
 }
 
+#four {
+  font-size: 70px;
+}
+
 #theme:hover {
   color: grey;
 }
@@ -40,4 +44,10 @@ a:hover {
 
 #three:hover {
   color: white;
+}
+
+#four:hover {
+  background: linear-gradient(white, grey);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
