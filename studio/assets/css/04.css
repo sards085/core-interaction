@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/ucp7yvj.css");
+
+.images img{
+  width: 100%;
+  margin-top: -50px;
+}
+
+body {
+  background-image: linear-gradient(white 11%, grey 70%, white 2%);
+  margin-bottom: -50px;
+
+}
+
+#bodytext {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 1.45em;
+  margin-right: 560px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.img1 {
+  width: 101%;
+  overflow: hidden;
+  margin: 0;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-bottom: -8px
+}
+
+.img1::after {
+  background-image: linear-gradient(grey, white);
+}
+
+::selection {
+  background-color: none;
+  color: blue;
+}
+
+.back {
+  font-family: "saffran";
+  font-weight: 300px;
+  position: absolute;
+  top: 7350px;
+  left: 50px;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+
+.back:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+
+}
+
+a:hover {
+  color: grey;
+}
