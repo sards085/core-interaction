@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: green;
+  z-index: 5;
+}
+
+main {
+  background-color: whitesmoke;
+  position: relative;
+  top: 100px;
+}
+
+.nav {
+  background-color: lightblue;
+  padding: 50px;
+  width: 30%;
+  height: 360px;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+}
+
+.nav-item {
+  background-color: darkblue;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.nav-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.nav-footer {
+  background-color: darkblue;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.container {
+  background-color: yellow;
+  padding: 50px;
+  width: 70%;
+  position: relative;
+  left: 30%;
+}
+
+.container-item {
+  background-color: orange;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.container-item:last-child {
+  margin:0;
+}
+
+.container-item:nth-child(2) {
+  background-color: red;
+}
+
+/*
+relative allows you to offset an item based on its
+original location */
+
+/* change stacking order using z-index */
+
+/* border-box: box-sizing when you add padding, doesnt add additional width */
+
+/* asteriks means everything on the page will have this property */
