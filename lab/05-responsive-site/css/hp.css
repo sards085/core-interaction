@@ -13,6 +13,10 @@ a {
   color: black;
 }
 
+.two, .three, .about {
+  display: none;
+}
+
 .n-one, .n-two, .n-three, .n-about {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
