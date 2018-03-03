@@ -1,5 +1,9 @@
 * {box-sizing:border-box;}
 
+@font-face {
+    font-family: Braille;
+    src: local("fonts/braille.ttf");
+}
 body {
   margin: -8px;
 }
@@ -66,9 +70,8 @@ p {
 
 @media (max-width: 800px) {
   .two {
-    font-family: 'saffran';
-    font-weight: 200;
-    font-size: 195px;
+    font-family: 'Braille';
+    font-size: 180px;
     position: absolute;
     left: 5%;
     top: 35%;
@@ -76,11 +79,33 @@ p {
   }
 
   .two a:hover {
-    font-weight: 400;
-    font-size: 190px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
 
   .one{
     display: none;
   }
+}
+
+@media (max-width: 533px) {
+  .two {
+    display: none;
+  }
+
+  .one {
+    display: none;
+  }
+
+  .three {
+    font-family: 'saffran';
+    font-weight: 200;
+    font-size: 130px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    line-height: 1em;
+  }
+
 }
