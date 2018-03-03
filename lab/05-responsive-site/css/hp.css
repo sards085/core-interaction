@@ -1,0 +1,86 @@
+* {box-sizing:border-box;}
+
+body {
+  margin: -8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.n-one, .n-two, .n-three, .n-about {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 50px;
+    color: grey;
+    position: absolute;
+    display: inline;
+}
+
+.n-one {
+  bottom: 0;
+  right: 0;
+  margin: -8px;
+}
+
+.one a{
+  font-family: 'dapifer-stencil';
+  font-weight: 400;
+  font-size: 210px;
+  position: absolute;
+  left: 7%;
+  top: 20%;
+  line-height: 1em;
+}
+
+.one a:hover {
+  font-family: 'dapifer-stencil';
+  font-weight: 300;
+  font-size: 214px;
+}
+
+.n-two {
+  top: 50%;
+  left: 50%;
+}
+
+.n-three {
+  top: 33.333%;
+  left: 33.333%;
+}
+
+.n-about {
+  bottom: 0;
+  left: 20%;
+}
+
+p {
+  margin: 0;
+}
+
+::selection {
+  background-color: white;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .two {
+    font-family: 'saffran';
+    font-weight: 200;
+    font-size: 195px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    line-height: 1em;
+  }
+
+  .two a:hover {
+    font-weight: 400;
+    font-size: 190px;
+  }
+
+  .one{
+    display: none;
+  }
+}
