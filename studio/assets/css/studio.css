@@ -30,6 +30,10 @@ a:hover {
   font-size: 70px;
 }
 
+#five {
+  font-size: 70px;
+}
+
 #theme:hover {
   color: grey;
 }
@@ -48,6 +52,12 @@ a:hover {
 
 #four:hover {
   background: linear-gradient(white, grey);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#five:hover {
+  background: linear-gradient(grey, black);
   -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
