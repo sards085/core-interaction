@@ -1,10 +1,21 @@
 * {box-sizing:border-box;}
 
+body, a {
+  cursor: url(../img/enter_cursor.png), auto;
+}
+
+
+.gif {
+  display: flex;
+  justify-content: center;
+  cursor: url(../img/enter_cursor.png), auto;
+}
+
 img {
-  width: 100%;
-  margin: 0;
-  margin-top: -50px;
-  cursor: url(red_cursor.png) 2 2, auto;
+  width: 90%;
+  display: flex;
+  margin-top: 15%;
+  cursor: url(../img/enter_cursor.png), auto;
 }
 
 img:hover {
