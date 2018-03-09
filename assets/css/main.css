@@ -1,0 +1,33 @@
+main{
+  background-color: white;
+  color: black;
+  font-family:arial;
+  font-size: 220px;
+  margin-top: -180px;
+  line-height: .85em;
+  margin-left: 50px;
+}
+
+.studio {
+  margin-top: -120px;
+}
+
+a {
+  font-size: 120px;
+  font-family: "dapifer-stencil";
+  text-decoration: none;
+  background: linear-gradient(black 30%, grey);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+  background: linear-gradient(grey 30%, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+::selection {
+  background-color: white;
+  color: blue;
+}

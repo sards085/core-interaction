@@ -1,0 +1,70 @@
+body{
+  background-color: white;
+  color: black;
+  font-family:arial;
+  font-size: 120px;
+  padding: 0px 0px 0px 50px;
+}
+
+h1 {
+  line-height: .5em;
+  margin-top: 400px;
+  margin-bottom: 0;
+  padding-bottom:0;
+
+
+}
+a {
+  color: black;
+  font-family: "dapifer-stencil";
+  font-size: 100px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+#one, #two, #three, #four, #five, #seven {
+  font-size: 60px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+#four:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#one:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#two:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#three:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#five:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#seven:hover {
+  background: linear-gradient(grey, black);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+::selection {
+  background-color: white;
+  color: blue;
+  text-decoration: line-through;
+}
