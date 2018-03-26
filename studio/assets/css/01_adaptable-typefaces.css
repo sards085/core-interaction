@@ -46,3 +46,7 @@ a:hover {
   padding-left: 400px;
   padding-top: 100px;
 }
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,38 @@
+.debt {
+  font-size: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: hwt unit gothic;
+  font-weight: 716;
+  display: flex;
+  justify-content: center;
+  margin-top: 22%;
+  cursor: alias;
+  flex-wrap: wrap;
+  color: black;
+}
+
+::selection {
+  background-color: red;
+  color: white;
+}
+
+.dot {
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  color: blue;
+  font-family: hwt unit gothic;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.whiteblock {
+  background-color: white;
+  position: absolute;
+  width: 80px;
+  height: 100px;
+}

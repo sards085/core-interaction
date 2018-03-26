@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: -550px;
+  padding-top: 50px;
+}
+
+li {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow{
+  width: 50px;
+  height: calc(50px / 2.3);
+  margin-top: -300px;
+  position: relative;
+}
+
+.arrow-home {
+  height: 37px;
+  width: 35px;
+  margin-top: -300px;
+}
+
+.arrow:hover {
+  transition: .6s ease-in-out;
+  transform: scaleX(1.2);
+}
+
+.arrow-home:hover {
+  transition: 1s ease-in-out;
+  transform: rotate(300deg);
+}
+
+li:last-child {
+  display: flex;
+  padding-left: 88%;
+}

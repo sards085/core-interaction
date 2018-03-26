@@ -17,7 +17,7 @@ body{
 }
 
 #grid img:hover {
-  background: url("../img/02-BRAILLE/braille_dots_nogrid-11.png") no-repeat scroll center center;
+  background: url("/media/img/02/braille_dots_nogrid-11.png") no-repeat scroll center center;
   background-size: cover;
   background-position: 0, 0;
 }
@@ -28,7 +28,7 @@ body{
 }
 
 #nogrid img:hover {
-  background: url("../img/02-BRAILLE/braille_dots_nogrid-11.png") no-repeat scroll center center;
+  background: url("/media/img/02/braille_dots_nogrid-11.png") no-repeat scroll center center;
   background-size: cover;
   background-position: 0, 0;
 }

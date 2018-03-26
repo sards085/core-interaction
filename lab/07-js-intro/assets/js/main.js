@@ -128,3 +128,84 @@ var addNumbers = function(num1, num2) {
   return num1 + num2 //returns value when you run function
 }
 console.log("addNumbers(1,2):", addNumbers(1,2));
+
+
+
+//FUNCTIONS AGAIN!! (going over hw) 3.15
+//argument goes inside ()
+var squared = function (number) {
+  return number * number
+}
+//----or-----
+function squared (number) {
+  return number * number
+}
+
+//second part of HW
+
+var me = {
+  name: "Savanna",
+  age: 20,
+  nativeNewYorker: false,
+};
+
+var describeMe = function (me) {
+  return "Hi I am " + me.name + " and I am " + me.age + " and if you asked me if I was a natvie New Yorker I would say " + me.nativeNewYorker
+}
+
+var Rachel = {
+  name: "rachel",
+  age: 76,
+  nativeNewYorker: false,
+};
+//then run describeMe(Rachel) and it would replace w her info
+
+
+
+console.log('');
+
+
+
+//CONDITIONAL STATEMENTS 3.15
+//will run chunk of code based on a condition
+//compartive statement goes inside ()
+console.log('Conditional Statements–');
+
+if (me.age > 21) {
+  console.log('party time')
+}
+else if (me.age < 5){
+  console.log('why are you here')
+}
+else {
+  console.log('not quit yet')
+}
+
+
+console.log('');
+
+
+//LOOP
+// the i is like a starting point
+console.log('Loops–');
+
+var hamburgers = 0;
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + ' hamburger(s)');
+  hamburgers++;
+}
+
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+console.log('how many licks does it take to get to the center of a tootsie pop?')
+
+for (var licks = 1; licks <= 4; licks++) {
+  if (licks==4) {
+    console.log('CRUNCH!');
+  }
+  else {
+  console.log(licks);
+  }
+}

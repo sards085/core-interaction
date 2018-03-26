@@ -4,27 +4,16 @@
   border-left: 0.5px solid grey;
   height: 160%;
   position: absolute;
-  left: 40%;
+  display: flex;
+  left: 45%;
   margin-top: 240px;
+  z-index: 10;
 }
-
 
 body{
   background-color: black;
   margin-left: 590px;
-}
-
-.back {
-  color: #000000;
-  font-family: "Garamond";
-  font-size: 50px;
-  text-decoration: none;
-  margin-top: 100px;
-}
-
-.back:hover {
-  color: #0000FF;
-  font-family: "Garamond";
+  margin-bottom: 70px;
 }
 
 ::selection {
