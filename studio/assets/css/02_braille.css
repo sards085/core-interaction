@@ -1,73 +1,131 @@
-@font-face {
-  font-family: BRAILLE1;
-  src: url(../fonts/BRAILLE1.ttf);
+
+.letter {
+  position: absolute;
+  z-index: 5;
+  cursor: all-scroll;
+}
+
+.letter.a{
+  top: 210px;
+  left: 95px;
+  width: 90px;
+  height: 90px;
+}
+
+.letter.a img {
+  position: absolute;
+  width: 90px;
+}
+
+.letter.b {
+	left: 295px;
+  top: 200px;
+  width: 120px;
+  height: 220px;
+}
+
+.letter.b img {
+  position: absolute;
+  width: 120px;
+}
+
+.letter.c{
+  left: 520px;
+  top: 200px;
+  width: 150px;
+  height: 120px;
+}
+
+.letter.c img{
+  width: 150px;
+  height: 120px;
+}
+
+.letter.d {
+  left: 745px;
+  top: 195px;
+  width: 200px;
+  height: 221px;
+}
+
+.letter.d img {
+  width: 200px;
+  height: 221px;
+}
+
+.letter.e {
+  left: 965px;
+  top: 190px;
+  width: 200px;
+  height: 225px;
+}
+
+.letter.e img {
+  width: 200px;
+  height: 225px;
+}
+
+.letter.f {
+  left: 1175px;
+  top: 190px
+}
+
+.letter.f img {
+  width: 200px;
+}
+
+.bare-grid{
+  height: 400px;
+  margin-top: 50px;
+  margin-left: -60px;
+  z-index: 0;
+}
+
+.black-bar {
+  position: absolute;
+  top: 155px;
+  left: 0;
+  width: 1430px;
+  height: 10px;
+  z-index: 0;
+  background-color: black;
 }
 
 body{
-  background-color: #0000FF;
-  color: #b1b3b6;
-  font-family: "Arial";
-  font-size: 50px;
+  background-image: linear-gradient(black 50%, #303131 90%);
   padding: 100px 300px 100px 100px;
+  height: 2100px;
 }
 
-#grid img{
-  height: 110%;
-  width: 110%;
+h1 {
+  position: absolute;
+  font-family: "saffran";
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 400px;
+  color: white;
+  line-height: 1.05em;
+  left: 50%;
+  margin-right: 100px;
 }
 
-#grid img:hover {
-  background: url("/media/img/02/braille_dots_nogrid-11.png") no-repeat scroll center center;
-  background-size: cover;
-  background-position: 0, 0;
-}
-
-#nogrid img{
-  height: 110%;
-  width: 110%;
-}
-
-#nogrid img:hover {
-  background: url("/media/img/02/braille_dots_nogrid-11.png") no-repeat scroll center center;
-  background-size: cover;
-  background-position: 0, 0;
-}
-
-
-.back {
-  color: #000000;
-  font-family: "Garamond";
-  font-size: 50px;
-  text-decoration: none;
-  margin-top: 100px;
-}
-
-.back:hover {
-  color: #0000FF;
-}
-
-::selection {
-  background: #000000;
-}
-
-p {
-  color: #0000B4;
-  font-family: Arial;
-  font-size: 50px;
-  text-decoration: none;
-  padding-left: 50px;
-  display:in-line;
+.bodytext {
+  position: absolute;
+  color: white;
+  font-family: "roboto mono";
+  font-weight: 100;
+  font-size: 20px;
+  left: 50%;
+  right: 150px;
+  margin-bottom: 70px;
+  margin-top: 580px;
+  line-height: 1.4em;
 }
 
 a {
   text-decoration: none;
-  font-family: Garamond;
-  color: #0000B4
+  color: grey;
 }
-
-a:hover {
-  font-family: BRAILLE1;
-  font-size: 28px;
-  position: inherit;
-  color: white;
+::selection {
+  opacity: 0;
 }
