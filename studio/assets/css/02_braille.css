@@ -97,35 +97,22 @@ body{
   height: 2100px;
 }
 
-h1 {
-  position: absolute;
-  font-family: "saffran";
-  font-weight: 300;
-  font-size: 60px;
-  margin-top: 400px;
+main {
   color: white;
-  line-height: 1.05em;
-  left: 50%;
-  margin-right: 100px;
 }
 
-.bodytext {
-  position: absolute;
+h1 {
   color: white;
-  font-family: "roboto mono";
-  font-weight: 100;
-  font-size: 20px;
-  left: 50%;
-  right: 150px;
-  margin-bottom: 70px;
-  margin-top: 580px;
-  line-height: 1.4em;
 }
 
 a {
-  text-decoration: none;
   color: grey;
 }
+
+a:hover {
+  color: white;
+}
+
 ::selection {
   opacity: 0;
 }

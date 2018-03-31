@@ -1,111 +1,37 @@
-@import url("https://use.typekit.net/ucp7yvj.css");
-
-.line {
-  border-left: 0.5px solid grey;
-  height: 160%;
-  position: absolute;
-  display: flex;
-  left: 45%;
-  margin-top: 240px;
-  z-index: 10;
-}
 
 body{
   background-color: white;
-  margin-left: 590px;
-  margin-bottom: 70px;
-}
-
-::selection {
-  background: #000000;
-  color: white;
-}
-
-.header {
-  color: white;
-  font-family: "saffran";
-  font-weight: 300px;
-  font-size: 80px;
-  text-decoration: none;
-  padding-left: 50px;
-  margin: 0;
-  margin-top: 100px;
-}
-
-.subhead {
-  color: white;
-  font-family: "saffran";
-  font-weight: 300px;
-  font-size: 40px;
-  text-decoration: none;
-  padding-left: 50px;
-  margin: 0;
-  margin-top: -10px;
-}
-
-.bodytext {
-  color: grey;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 200;
-  font-size: 25px;
-  line-height: 1.4em;
-  text-decoration: none;
-  padding-left: 50px;
-  padding-right: 150px;
-  padding-top: 50px;
 }
 
 .img {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex: 2;
   position: absolute;
-  left: 80px;
-  width: 259px;
+  left: 10%;
+  top: 57%;
 }
 
 img {
-  width: 190%;
-  height: 190%;
-  margin-top: 80px;
+  width: 35%;
+  margin-bottom: 5%;
 }
 
-img:nth-child(2) {
-  margin-top: 20px;
+
+img:hover{
+  transition: 0.3s;
+  filter: blur(1px);
 }
 
-img:nth-child(3) {
-  margin-top: 50px;
-  width: 186%;
-  height: 186%;
-}
-
-.img2 {
-  position: relative;
-  padding-bottom: 30px;
-  display: flex;
-}
-
-.img2 img {
-  width: 40%;
-  margin: 0;
-  padding: 0;
-
-}
-
-.img2 img:nth-child(1) {
-  padding-right: 100px;
+::selection {
+  color:blue;
 }
 
 a {
-  text-decoration: none;
-  font-family: "saffran";
   color: grey;
-  font-size: 28px;
-
+  transition: .2s ease-in-out;
 }
 
 a:hover {
-  font-family: "saffran";
-  color: black;
+  color: blue;
 }
