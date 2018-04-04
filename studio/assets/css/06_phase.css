@@ -1,0 +1,20 @@
+iframe {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 8%;
+  top: 8%;
+  z-index: -3;
+}
+
+h1 {
+  margin-top: 55%;
+}
+
+main {
+  margin-top: 68%;
+}
+
+a {
+  color: grey;
+}
