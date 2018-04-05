@@ -5,6 +5,7 @@ iframe {
   left: 8%;
   top: 8%;
   z-index: -3;
+  border: none;
 }
 
 h1 {

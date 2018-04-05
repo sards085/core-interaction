@@ -2,7 +2,6 @@
 .letter {
   position: absolute;
   z-index: 5;
-  cursor: all-scroll;
 }
 
 .letter.a{
@@ -79,6 +78,7 @@
   margin-top: 50px;
   margin-left: -60px;
   z-index: 0;
+  cursor: url('../media/img/cursors/blue_cross.png'), auto;
 }
 
 .black-bar {
