@@ -7,16 +7,19 @@ h1 {
   padding-top: 50px;
 }
 
+nav {
+  display: flex;
+}
+
 nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
-  padding-left: 25%;
 }
 
 li {
-  padding: 100px;
+  padding: 80px;
   line-height: 4em;
 }
 
@@ -36,5 +39,10 @@ span {
 
 a:hover {
     color: blue;
+    cursor: url('../cursors/bluehandopen.png'), auto;
+    transition: 0.2s ease-in-out;
+}
 
+body {
+    cursor: url('../cursors/handopen.png'), auto;
 }

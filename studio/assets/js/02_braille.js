@@ -22,3 +22,17 @@ window.addEventListener('mousemove', function(event) {
 		}
 	})
 })
+
+// var cursor = document.querySelector('.letter');
+// var cursorIsActive = false;
+//
+// cursor.addEventListener("mousedown", function (e) {
+//     e.preventDefault();
+// 		if (cursorIsActive) {
+// 		 	cursor.classList.add("mouseDown");
+// 			console.log("hello!");
+// 		} else {
+// 			cursor.classList.remove("mouseDown");
+// 		}
+//
+// 	})

@@ -1,7 +1,21 @@
 
+.cursorarea {
+  width: 1400px;
+  height: 700px;
+  cursor: url('../cursors/handopen.png'), auto;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+.mouseDown {
+  cursor: url('../cursors/closedhand.png'), auto;
+}
+
 .letter {
   position: absolute;
   z-index: 5;
+  cursor: url('../cursors/handopen.png'), auto;
 }
 
 .letter.a{
@@ -78,7 +92,7 @@
   margin-top: 50px;
   margin-left: -60px;
   z-index: 0;
-  cursor: url('../media/img/cursors/blue_cross.png'), auto;
+  cursor: url('../cursors/handopen.png'), auto;
 }
 
 .black-bar {
