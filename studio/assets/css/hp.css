@@ -7,22 +7,43 @@ h1 {
   padding-top: 50px;
 }
 
-nav {
+.articles {
   display: flex;
+  margin-left: 5%;
+  position: absolute;
 }
 
-nav ul {
+ul {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  list-style-type: none;
 }
 
 li {
   padding: 80px;
-  line-height: 4em;
+  line-height: 1em;
+  align-items: center;
 }
 
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1.2px solid black;
+  display: inline-block;
+  margin: 20px;
+  margin-right: 150px;
+}
+
+span {
+  padding: 30px;
+  position: relative;
+  top: 35px;
+  font-family: garamond;
+  font-size: 80px;
+  text-align: center;
+  line-height: 80px;
+}
 
 a {
   font-family: "unit-gothic-717";
@@ -31,10 +52,6 @@ a {
   text-decoration: none;
   color: black;
   transition: all 500ms ease;
-}
-
-span {
-  font-family: "unit-gothic-721";
 }
 
 a:hover {

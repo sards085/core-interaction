@@ -125,6 +125,7 @@ a {
 
 a:hover {
   color: white;
+  cursor: grabbing;
 }
 
 ::selection {
