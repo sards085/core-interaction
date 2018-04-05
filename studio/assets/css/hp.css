@@ -13,6 +13,10 @@ h1 {
   position: absolute;
 }
 
+nav {
+  cursor: url('../cursors/handopen.png'), auto;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -21,28 +25,12 @@ ul {
 
 li {
   padding: 80px;
-  line-height: 1em;
+  line-height: 4em;
   align-items: center;
 }
 
-.circle {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 1.2px solid black;
-  display: inline-block;
-  margin: 20px;
-  margin-right: 150px;
-}
-
 span {
-  padding: 30px;
-  position: relative;
-  top: 35px;
-  font-family: garamond;
-  font-size: 80px;
-  text-align: center;
-  line-height: 80px;
+  font-family: "unit-gothic-720";
 }
 
 a {
