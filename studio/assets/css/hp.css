@@ -56,9 +56,15 @@ a:hover {
   justify-content: center;
   align-items: center;
   -webkit-animation: spinoffPulse 9s infinite linear;
+  cursor: url('../cursors/handopen.png'), auto;
 }
 
-.q {
+.circle:hover {
+  border: 1.2px solid blue;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.q a {
   font-family: "roboto mono";
   font-weight: 100;
   font-size: 150px;
