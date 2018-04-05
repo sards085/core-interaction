@@ -49,9 +49,9 @@ a:hover {
   height: 200px;
   border-radius: 50%;
   border: 1.2px solid black;
-  position: absolute;
-  left: 78%;
-  top: 8%;
+  position: fixed;
+  left: 45%;
+  top: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
