@@ -29,10 +29,6 @@ li {
   align-items: center;
 }
 
-span {
-  font-family: "unit-gothic-720";
-}
-
 a {
   font-family: "unit-gothic-717";
   font-weight: 100;
@@ -48,6 +44,32 @@ a:hover {
     transition: 0.2s ease-in-out;
 }
 
-body {
-    cursor: url('../cursors/handopen.png'), auto;
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.2px solid black;
+  position: absolute;
+  left: 78%;
+  top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: spinoffPulse 9s infinite linear;
+}
+
+.q {
+  font-family: "roboto mono";
+  font-weight: 100;
+  font-size: 150px;
+
+}
+
+::selection {
+  opacity: 0;
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
 }
