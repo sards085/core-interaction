@@ -35,3 +35,48 @@ a:hover {
   color: blue;
   cursor: grabbing;
 }
+
+.container a{
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  right: 110px;
+  top: 50px;
+  cursor: url("../cursors/handopen.png");
+
+}
+
+.vline {
+  width: 1.2px;
+  background-color: black;
+  height: 80px;
+  transform: rotate(90deg);
+  display: flex;
+  position: absolute;
+  right: 150px;
+  top: 30px;
+  z-index: 1;
+}
+
+.dline {
+  width: 1.2px;
+  background-color: black;
+  height: 40px;
+  transform: rotate(-65deg);
+  display: flex;
+  position: absolute;
+  right: 128px;
+  top: 41px;
+}
+
+.dline:last-child {
+  width: 1.2px;
+  background-color: black;
+  height: 40px;
+  transform: rotate(65deg);
+  display: flex;
+  position: absolute;
+  right: 127px;
+  top: 58px;
+}

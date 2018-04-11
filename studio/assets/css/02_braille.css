@@ -131,3 +131,7 @@ a:hover {
 ::selection {
   opacity: 0;
 }
+
+.dline, .dline:last-child, .vline{
+  background-color: white;
+}

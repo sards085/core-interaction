@@ -15,6 +15,7 @@ h1 {
 
 nav {
   cursor: url('../cursors/handopen.png'), auto;
+    z-index: 0;
 }
 
 ul {
@@ -73,6 +74,33 @@ a:hover {
 
 ::selection {
   opacity: 0;
+}
+
+.img01, .img02, .img03, .img04, .img05, .img06 {
+  display: none;
+  width: 105%;
+  transition: 1s ease-in-out;
+  margin: -8px;
+}
+
+.img01 {
+
+}
+
+.img02 {
+  filter: invert(100%);
+  width: 100%;
+  z-index: 0;
+}
+
+.img03 {
+  width: 100%;
+  height: auto;
+}
+
+.img04 {
+  width: 100%;
+  z-index: 0;
 }
 
 @-webkit-keyframes spinoffPulse {
