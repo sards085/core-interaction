@@ -10,7 +10,6 @@ body {
 .debt {
   font-size: 70px;
   font-family: "unit-gothic-717";
-  font-weight: 716;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +17,7 @@ body {
   flex-wrap: no-wrap;
   top: calc(50% - 50px);
   left: 10%;
-  color: red;
+  color: black;
   cursor: url("../cursor1-02.png"), auto;
   z-index: 5;
 }
@@ -31,25 +30,26 @@ body {
 }
 
 ::selection {
-  background-color: red;
+  background-color: black;
   color: white;
 }
 
 .dot {
   position: absolute;
-  color: red;
+  color: black;
   font-family: "unit-gothic-717";
   cursor: url("../cursor1-02.png"), auto;
 }
 
 a {
   text-decoration: none;
-  color: red;
-  cursor: url("../cursor1-02.png"), auto;
+  color: black;
+  cursor: url("../cursors/handopen.png"), auto;
 }
 
 a:hover {
-  cursor: url("../cursor1-02.png"), auto;
+  color: blue;
+  cursor: url("../cursors/bluehandopen.png"), auto;
 }
 
 .whiteblock {
@@ -57,5 +57,4 @@ a:hover {
   position: absolute;
   width: 80px;
   height: 100px;
-  cursor: cros
 }
