@@ -1,16 +1,21 @@
 
 h1 {
   display: flex;
+  flex-direction: column;
   position: absolute;
   font-family: "unit-gothic-717";
   font-weight: 400;
   font-size: 60px;
-  margin-top: 200px;
-  line-height: 1.05em;
+  margin-top: 230px;
+  line-height: .9em;
   padding-bottom: 10px;
-  display: flex;
   left: 50%;
   margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "unit-gothic-720";
+  font-size: 50px;
 }
 
 main{
@@ -19,7 +24,7 @@ main{
   font-size: 20px;
   position: absolute;
   left: 50%;
-  right: 150px;
+  right: 10%;
   margin-bottom: 70px;
   margin-top: 370px;
   line-height: 1.4em;
@@ -44,7 +49,6 @@ a:hover {
   right: 110px;
   top: 50px;
   cursor: url("../cursors/handopen.png");
-
 }
 
 .vline {
@@ -79,4 +83,8 @@ a:hover {
   position: absolute;
   right: 127px;
   top: 58px;
+}
+
+::selection {
+  color: blue;
 }
