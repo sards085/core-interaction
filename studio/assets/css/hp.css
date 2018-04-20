@@ -22,6 +22,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 li {
@@ -58,6 +59,7 @@ a:hover {
   align-items: center;
   -webkit-animation: spinoffPulse 9s infinite linear;
   cursor: url('../cursors/handopen.png'), auto;
+  z-index: 2;
 }
 
 .circle:hover {
@@ -67,8 +69,9 @@ a:hover {
 
 .q a {
   font-family: "roboto mono";
-  font-weight: 300;
-  font-size: 150px;
+  font-weight: 400;
+  font-size: 200px;
+  z-index: 2;
 
 }
 
@@ -76,31 +79,46 @@ a:hover {
   opacity: 0;
 }
 
-.img01, .img02, .img03, .img04, .img05, .img06 {
+/* .img01, .img02, .img03, .img04, .img05, .img06 {
   display: none;
   width: 105%;
   transition: 1s ease-in-out;
   margin: -8px;
+} */
+
+img {
+  width: 100%;
+  z-index: 0;
 }
 
-.img01 {
-
+.img01{
+  display: none;
+  transition: 1s ease-in-out;
 }
 
 .img02 {
-  filter: invert(100%);
-  width: 100%;
-  z-index: 0;
+  display: none;
+  position: fixed;
 }
 
 .img03 {
   width: 100%;
   height: auto;
+  display: none;
 }
 
 .img04 {
   width: 100%;
-  z-index: 0;
+  display: none;
+  position: fixed;
+}
+
+.img05 {
+  display: none;
+}
+
+.img06 {
+  display: none;
 }
 
 @-webkit-keyframes spinoffPulse {

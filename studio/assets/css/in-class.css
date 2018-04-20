@@ -1,0 +1,75 @@
+h1 {
+  font-family: "lust";
+  font-weight: 400;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 28%;
+}
+
+p {
+  font-family: "dapifer";
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  left: 39%;
+}
+
+.hello {
+    top: 85%;
+    left: 40%;
+}
+
+.line {
+  height: 200px;
+  width: 2px;
+  position: absolute;
+  top: 59%;
+  left: 47%;
+  background-color: white;
+}
+
+img {
+  width: 110%;
+  margin: -8px;
+}
+
+.vline {
+  width: 1.5px;
+  background-color: white;
+  height: 80px;
+  transform: rotate(90deg);
+  display: flex;
+  position: absolute;
+  right: 150px;
+  top: 30px;
+  z-index: 1;
+}
+
+.dline {
+  width: 1.5px;
+  background-color: white;
+  height: 40px;
+  transform: rotate(-65deg);
+  display: flex;
+  position: absolute;
+  right: 128px;
+  top: 41px;
+}
+
+.dline:last-child {
+  width: 1.5px;
+  background-color: white;
+  height: 40px;
+  transform: rotate(65deg);
+  display: flex;
+  position: absolute;
+  right: 127px;
+  top: 58px;
+}

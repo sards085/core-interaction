@@ -34,10 +34,12 @@ var post2 = document.querySelector('.post2');
 
 post2.addEventListener('mouseover', function(){
 	img2.style.display = "block";
+	document.body.style.backgroundColor = "black";
 })
 
 post2.addEventListener('mouseout', function() {
 	img2.style.display="none";
+	document.body.style.backgroundColor = "white";
 })
 
 //------------------------------------------------//
@@ -68,26 +70,26 @@ post4.addEventListener('mouseout', function() {
 
 //------------------------------------------------//
 
-var img3 = document.querySelector('.img03');
-var post3 = document.querySelector('.post3');
+var img5 = document.querySelector('.img05');
+var post5 = document.querySelector('.post5');
 
-post3.addEventListener('mouseover', function(){
-	img3.style.display = "block";
+post5.addEventListener('mouseover', function(){
+	img5.style.display = "block";
 })
 
-post3.addEventListener('mouseout', function() {
-	img3.style.display="none";
+post5.addEventListener('mouseout', function() {
+	img5.style.display="none";
 })
 
 //------------------------------------------------//
 
-var img3 = document.querySelector('.img03');
-var post3 = document.querySelector('.post3');
+var img6 = document.querySelector('.img06');
+var post6 = document.querySelector('.post6');
 
-post3.addEventListener('mouseover', function(){
-	img3.style.display = "block";
+post6.addEventListener('mouseover', function(){
+	img6.style.display = "block";
 })
 
-post3.addEventListener('mouseout', function() {
-	img3.style.display="none";
+post6.addEventListener('mouseout', function() {
+	img6.style.display="none";
 })
