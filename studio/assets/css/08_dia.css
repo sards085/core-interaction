@@ -1,0 +1,47 @@
+.bigimg {
+position: absolute;
+top: 5%;
+left: 5%;
+height: 90%;
+width: 90%;
+filter: invert(100);
+z-index: 1;
+transition: 0.17s ease-in-out;
+}
+
+.bigimg:hover {
+  opacity:0;
+}
+
+h1{
+  z-index: 5;
+}
+
+main {
+  z-index: 5;
+  color: grey;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 3;
+  z-index: 0;
+}
+
+img {
+  width: 30%;
+  display: flex;
+  position: absolute;
+  left: 10%;
+  top: 57%;
+}
+
+.img2{
+  top: 100%;
+}
+
+.img3 {
+  top: 143%;
+}
