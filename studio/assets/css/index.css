@@ -7,7 +7,7 @@ body {
 }
 
 
-.debt {
+.modular {
   font-size: 70px;
   font-family: "unit-gothic-717";
   display: flex;
@@ -22,7 +22,7 @@ body {
   z-index: 5;
 }
 
-.debt p {
+.modular p {
   display: flex;
   justify-content: center;
   align-items: center;

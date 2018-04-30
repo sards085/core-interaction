@@ -14,15 +14,17 @@ fetch('https://wordsapiv1.p.mashape.com/words/typography', {
     });
 
 
-var debtDiv = document.querySelector('div.debt')
-var myDebt = ['TYPOGRAPHY', 'FONTS', 'TYPEFACES', 'TYPE SYSTEMS']
+var modular = document.querySelector('div.modular')
+// var synonyms = 'response.synonyms'
 
-debtDiv.innerText = 'MODULAR ' + myDebt[1]
+modular.innerText = 'MODULAR FONTS'
+//
+//
+// modular.addEventListener('click' , function() {
+//   modular.innerText = 'MODULAR ' + synonyms
+// })
 
 
-debtDiv.addEventListener('click' , function() {
-  debtDiv.innerText = 'MODULAR ' + myDebt[2]
-})
 
 window.addEventListener('click', function(event) {
   var dot = document.querySelector('div.dot')
