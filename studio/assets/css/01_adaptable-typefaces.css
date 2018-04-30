@@ -21,15 +21,6 @@ main{
   display: flex;
 }
 
-.galapagos:hover{
-  transition: 0.3s;
-  filter: blur(1px);
-}
-
-.avarit:hover {
-  transition: 0.3s;
-  filter: blur(2px);
-}
 
 .avarit {
   width: 50%;

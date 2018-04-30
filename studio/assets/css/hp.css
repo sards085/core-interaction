@@ -142,6 +142,7 @@ img {
 }
 
 .img06 {
+  width: 100%;
   display: none;
   position: fixed;
   z-index: -5;

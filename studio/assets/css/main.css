@@ -18,7 +18,7 @@ h1 {
   font-size: 50px;
 }
 
-main{
+main p{
   font-family: "roboto mono", monospace;
   font-weight: 100;
   font-size: 20px;
@@ -27,11 +27,13 @@ main{
   right: 10%;
   margin-bottom: 70px;
   margin-top: 370px;
-  line-height: 1.4em;
+  line-height: 1.5em;
+  color: black;
+  z-index: 0;
 }
 
 a {
-  color: black;
+  color: grey;
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
@@ -41,48 +43,37 @@ a:hover {
   cursor: grabbing;
 }
 
-.container a{
-  width: 80px;
-  height: 40px;
-  position: absolute;
+header {
   display: flex;
-  right: 110px;
-  top: 50px;
-  cursor: url("../cursors/handopen.png");
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 99vw;
+  height: 8vh;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 0.5px solid blue;
+  margin: -8px;
 }
 
-.vline {
-  width: 1.2px;
-  background-color: black;
-  height: 80px;
-  transform: rotate(90deg);
-  display: flex;
-  position: absolute;
-  right: 150px;
-  top: 30px;
-  z-index: 1;
+.fwd {
+  font-family: "niveau-grotesk";
+  font-weight: 200;
+  font-size: 70px;
+  position: fixed;
+  top: -2%;
+  left: 95vw;
+  color: blue;
 }
 
-.dline {
-  width: 1.2px;
-  background-color: black;
-  height: 40px;
-  transform: rotate(-65deg);
-  display: flex;
-  position: absolute;
-  right: 128px;
-  top: 41px;
-}
-
-.dline:last-child {
-  width: 1.2px;
-  background-color: black;
-  height: 40px;
-  transform: rotate(65deg);
-  display: flex;
-  position: absolute;
-  right: 127px;
-  top: 58px;
+.back {
+  font-family: "niveau-grotesk";
+  font-weight: 200;
+  font-size: 70px;
+  position: fixed;
+  top: -2%;
+  color: blue;
 }
 
 ::selection {
