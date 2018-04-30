@@ -37,13 +37,14 @@ a {
   font-size: 120px;
   text-decoration: none;
   color: black;
-  transition: all 500ms ease;
+  z-index: 0;
 }
 
 a:hover {
     color: blue;
     cursor: url('../cursors/bluehandopen.png'), auto;
     transition: 0.2s ease-in-out;
+    z-index: 0;
 }
 
 .circle {
@@ -72,7 +73,6 @@ a:hover {
   font-weight: 400;
   font-size: 200px;
   z-index: 2;
-
 }
 
 ::selection {
@@ -93,32 +93,79 @@ img {
 
 .img01{
   display: none;
-  transition: 1s ease-in-out;
+  position: fixed;
+  z-index: -5;
+  filter: blur(8px);
 }
 
 .img02 {
+  width: 90%;
   display: none;
   position: fixed;
+  filter: blur(8px);
+  z-index: -5;
+  top: 37%;
+  left: 7%;
+
 }
 
 .img03 {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: none;
+  position: fixed;
+  top: 5%;
+  left: 0;
+  z-index: -5;
+  filter: blur(8px);
 }
 
 .img04 {
   width: 100%;
   display: none;
   position: fixed;
+  top: -10%;
+  left: 0;
+  z-index: -5;
+  filter: blur(8px);
 }
 
 .img05 {
+  width: 75%;
+  height: auto;
   display: none;
+  z-index: -5;
+  position: fixed;
+  top: 3%;
+  left: 15%;
+  filter: blur(8px) invert(1);
 }
 
 .img06 {
   display: none;
+  position: fixed;
+  z-index: -5;
+  filter: blur(8px);
+}
+
+.img07 {
+  width: 90%;
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  z-index: -5;
+  filter: blur(8px);
+}
+
+.img08 {
+  width: 80%;
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 8%;
+  z-index: -5;
+  filter: invert(1) blur(8px);
 }
 
 @-webkit-keyframes spinoffPulse {

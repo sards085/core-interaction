@@ -35,6 +35,7 @@ var post2 = document.querySelector('.post2');
 post2.addEventListener('mouseover', function(){
 	img2.style.display = "block";
 	document.body.style.backgroundColor = "black";
+
 })
 
 post2.addEventListener('mouseout', function() {
@@ -93,3 +94,29 @@ post6.addEventListener('mouseover', function(){
 post6.addEventListener('mouseout', function() {
 	img6.style.display="none";
 })
+
+//-------------------------------------------------//
+var img7 = document.querySelector('.img07');
+var post7 = document.querySelector('.post7');
+
+post7.addEventListener('mouseover', function(){
+	img7.style.display = "block";
+})
+
+post7.addEventListener('mouseout', function() {
+	img7.style.display="none";
+})
+
+//-------------------------------------------------//
+var img8 = document.querySelector('.img08');
+var post8 = document.querySelector('.post8');
+
+post8.addEventListener('mouseover', function(){
+	img8.style.display = "block";
+})
+
+post8.addEventListener('mouseout', function() {
+	img8.style.display="none";
+})
+
+//-------------------------------------------------//
