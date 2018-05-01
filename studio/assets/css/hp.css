@@ -9,7 +9,7 @@ h1 {
 
 .articles {
   display: flex;
-  margin-left: 2%;
+  left: 2%;
   position: absolute;
 }
 
@@ -53,7 +53,7 @@ a:hover {
   border-radius: 50%;
   border: 1.2px solid black;
   position: fixed;
-  left: 80%;
+  left: 82%;
   top: 5%;
   display: flex;
   justify-content: center;
