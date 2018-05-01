@@ -10,9 +10,13 @@ header {
 }
 
 
-.fwd, .back {
+.fwd, .back, .home {
   color: white;
   top: -2.2%;
+}
+
+.home {
+  top: -1%;
 }
 
 .cursorarea {

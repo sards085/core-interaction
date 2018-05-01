@@ -32,6 +32,10 @@ main {
   z-index: 0;
 }
 
+main p {
+  color: black;
+}
+
 a {
   color: grey;
   text-decoration: none;
@@ -44,8 +48,6 @@ a:hover {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
   padding-right: 20px;
   padding-left: 20px;
   width: 99vw;
@@ -55,6 +57,17 @@ header {
   z-index: 10;
   border-bottom: 0.5px solid blue;
   margin: -8px;
+}
+
+
+.home {
+  font-family: "roboto mono";
+  font-weight: 200;
+  font-size: 70px;
+  color: blue;
+  position: fixed;
+  top: -1%;
+  left: 47vw;
 }
 
 .fwd {
@@ -79,3 +92,8 @@ header {
 ::selection {
   color: blue;
 }
+
+/* @-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
+} */

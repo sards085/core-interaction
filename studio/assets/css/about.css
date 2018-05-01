@@ -32,3 +32,17 @@ a:hover {
   color: blue;
   cursor: url('../cursors/bluehandopen.png'), auto;
 }
+
+.home {
+  font-family: "roboto mono";
+  font-weight: 200;
+  font-size: 70px;
+  color: blue;
+  position: fixed;
+  top: -1%;
+  left: 47vw;
+}
+
+.home:hover {
+  color: black;
+}
