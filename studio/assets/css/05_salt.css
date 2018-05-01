@@ -17,12 +17,6 @@ img {
   margin-bottom: 5%;
 }
 
-
-img:hover{
-  transition: 0.3s;
-  filter: blur(1px);
-}
-
 ::selection {
   color:blue;
 }

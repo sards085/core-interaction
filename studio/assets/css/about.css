@@ -33,16 +33,40 @@ a:hover {
   cursor: url('../cursors/bluehandopen.png'), auto;
 }
 
-.home {
-  font-family: "roboto mono";
-  font-weight: 200;
-  font-size: 70px;
-  color: blue;
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.2px solid blue;
   position: fixed;
-  top: -1%;
-  left: 47vw;
+  left: 82%;
+  top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: spinoffPulse 9s infinite linear;
+  cursor: url('../cursors/handopen.png'), auto;
+  z-index: 2;
 }
 
-.home:hover {
+.circle:hover {
+  border: 1.2px solid black;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.q a {
+  font-family: "roboto mono";
+  font-weight: 400;
+  font-size: 200px;
+  z-index: 2;
+  color: blue;
+}
+
+.q a:hover {
   color: black;
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
 }

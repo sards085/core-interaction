@@ -37,9 +37,3 @@ main {
   margin-top: 30%;
   border: 1px solid black;
 }
-
-
-img:hover{
-  transition: 0.3s;
-  filter: blur(1px);
-}

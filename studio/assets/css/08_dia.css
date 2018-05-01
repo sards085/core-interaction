@@ -1,12 +1,11 @@
 .bigimg {
 position: absolute;
-top: 5%;
-left: 5%;
-height: 90%;
-width: 90%;
+top: 0;
+left: 0;
+width: 100%;
 filter: invert(100);
 z-index: 15;
-transition: 0.17s ease-in-out;
+transition: 0.3s ease-in-out;
 }
 
 .bigimg:hover {
