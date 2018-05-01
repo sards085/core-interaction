@@ -79,13 +79,6 @@ a:hover {
   opacity: 0;
 }
 
-/* .img01, .img02, .img03, .img04, .img05, .img06 {
-  display: none;
-  width: 105%;
-  transition: 1s ease-in-out;
-  margin: -8px;
-} */
-
 img {
   width: 100%;
   z-index: 0;
@@ -172,4 +165,42 @@ img {
 @-webkit-keyframes spinoffPulse {
     0% { -webkit-transform:rotate(150deg); }
 100% { -webkit-transform:rotate(-150deg); }
+}
+
+
+/* mobile -------------------------------------------------- */
+
+@media only screen and (max-width: 400px) and (orientation : portrait) {
+
+  a {
+    font-family: "unit-gothic-717";
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+    z-index: 0;
+    position: relative;
+    line-height: 1em;
+  }
+
+  ul {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 5vh;
+  }
+
+  li {
+    position: relative;
+    align-items: center;
+    line-height: 1em;
+    padding: 0;
+    padding-bottom: 10vh;
+  }
+
+  /* images --------------------------------  */
+
+  img {
+    opacity: 0;
+  }
+
 }
