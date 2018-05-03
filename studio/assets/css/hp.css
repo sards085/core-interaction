@@ -193,7 +193,7 @@ img {
     opacity: 0;
   }
 
-  /* about page link ----------------------------- */
+  /* about page link ----------------------- */
 
   .circle {
     width: 100px;
@@ -208,7 +208,7 @@ img {
   }
 
   .circle:hover {
-    border: 1px solid black;
+    border: 1px solid white;
   }
 
   .q a{

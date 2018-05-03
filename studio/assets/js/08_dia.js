@@ -1,7 +1,4 @@
-var bigimg = document.querySelector('.bigimg');
-var img1 = document.querySelector('.img1');
-var img2 = document.querySelector('.img2');
-var img3 = document.querySelector('.img3');
+var bigimg = document.querySelector('.dia-bigimg');
 
 bigimg.addEventListener('mouseover', function(){
 	bigimg.style.display = "block";

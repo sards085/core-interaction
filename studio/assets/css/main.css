@@ -24,15 +24,18 @@ main {
   position: absolute;
   left: 50%;
   right: 10%;
-  margin-bottom: 70px;
-  margin-top: 370px;
+  top: 55%;
+  margin-bottom: 5%;
   line-height: 1.5em;
-  color: black;
   z-index: 0;
 }
 
-main p {
+p {
   color: black;
+}
+
+blockquote {
+  color: grey;
 }
 
 a {
@@ -92,20 +95,125 @@ header {
   color: blue;
 }
 
-@media only screen and (max-width: 600px) and (max-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* mobile -------------------------------------------------- */
+
+@media only screen and (max-width: 400px) and (orientation : portrait) {
 
   h1 {
-    display: flex;
-    flex-direction: column;
     position: absolute;
     font-family: "unit-gothic-717";
-    font-size: 20px;
-    line-height: .9em;
+    font-size: 36px;
+    line-height: 1em;
     padding-bottom: 10px;
-    top: 30%;
-    left: 50%;
-    margin-bottom: 0;
+    top: 10vh;
+    left: 5vw;
   }
 
+  .subtitle {
+    font-family: "unit-gothic-720";
+    font-size: 37px;
+  }
+
+  /* header---------------------------- */
+
+  header {
+    display: none;
+  }
+
+  .x {
+    font-family: "roboto mono";
+    font-weight: 100;
+    color: blue;
+    font-size: 74px;
+    position: fixed;
+    top: -1vh;
+    z-index: 20;
+  }
+
+  .mobile-fwd {
+    font-family: "niveau-grotesk";
+    font-weight: 200;
+    font-size: 60px;
+    position: fixed;
+    top: -1vh;
+    left: 84vw;
+    color: blue;
+    z-index: 20;
+  }
+
+  /* body text & images---------------------------- */
+
+  main {
+    font-family: "roboto mono", monospace;
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    left: 6vw;
+    right: 10vw;
+    top: 25vh;
+    line-height: 1.4em;
+    z-index: 0;
+  }
+
+  img {
+    margin-bottom: 5%;
+    left: -4vw;
+    top: 282vh;
+    position: relative;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    z-index: 3;
+    width: 165%;
+  }
+
+  .adapt-img1 {
+    width: 55%;
+    top: 240vh;
+    left: -12vw;
+}
+
+  .adapt-img2 {
+    width: 30%;
+    top: 240vh;
+    left: -12vw;
+  }
+
+  .muir-img {
+    width: 45%;
+    border: 1px solid black;
+  }
+
+  .salt-img {
+    width: 50%;
+    top: 168vh;
+  }
+
+  .kadist-img {
+    width: 82%;
+    left: 7vw;
+    top: 240vh;
+  }
+
+  .dia-img1, .dia-img2, .dia-img3 {
+    width: 80%;
+    left: 6vw;
+    top: 245vh;
+  }
+
+
+  /* iframe & video-------------------------- */
+
+  .kadist-video{
+      position: absolute;
+      left: -55vw;
+      top: 250vh;
+      border: none;
+      left: 7vw;
+      width: 82%;
+  }
 
 }

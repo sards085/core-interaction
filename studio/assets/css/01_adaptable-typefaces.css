@@ -1,18 +1,11 @@
 
-h1 {
-  color: black;
-}
-main{
-  color: grey;
-}
-
 .img {
   display: flex;
   flex-direction: column;
   position: absolute;
   left: 15%;
   top: 57%;
-  z-index: 0;
+  z-index: 3;
 }
 
 .galapagos{
@@ -28,11 +21,6 @@ main{
   margin-top: 80%;
 }
 
-
 ul {
   list-style-type: none;
-}
-
-::selection {
-  color: blue;
 }
