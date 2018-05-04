@@ -235,7 +235,7 @@ header {
     flex-direction: column;
     padding-bottom: 3%;
     position: relative;
-    top: 337vh;
+    top: 368vh;
     width: 80%;
   }
 
@@ -251,7 +251,7 @@ header {
     flex: 2;
     z-index: 3;
     width: 80%;
-    top: 378vh;
+    top: 405vh;
   }
 
   .salt-img {
