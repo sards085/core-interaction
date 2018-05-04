@@ -120,7 +120,7 @@ header {
     font-size: 48px;
     line-height: .9em;
     top: 17vh;
-    left: 15vw;
+    left: 13vw;
     width: 80%;
   }
 
@@ -202,7 +202,7 @@ header {
     font-weight: 300;
     font-size: 19px;
     position: absolute;
-    left: 15vw;
+    left: 13vw;
     top: 37vh;
     line-height: 1.5em;
     z-index: 0;
