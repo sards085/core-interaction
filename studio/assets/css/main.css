@@ -242,7 +242,7 @@ header {
   .muir-img {
     width: 75%;
     border: 1px solid black;
-    top: 425vh;
+    top: 435vh;
   }
 
   .mcb-img {
@@ -251,7 +251,7 @@ header {
     flex: 2;
     z-index: 3;
     width: 80%;
-    top: 405vh;
+    top: 415vh;
   }
 
   .salt-img {
