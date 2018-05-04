@@ -232,16 +232,14 @@ header {
     width: 250%;
   }
 
-  .adapt-img1 {
-    width: 55%;
-    top: 240vh;
-    left: -12vw;
-}
+  .adapt-img {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    position: relative;
+    top: 620vh;
+    width: 50%;
 
-  .adapt-img2 {
-    width: 30%;
-    top: 240vh;
-    left: -12vw;
   }
 
   .muir-img {
