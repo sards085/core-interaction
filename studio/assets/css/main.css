@@ -112,27 +112,33 @@ header {
 }
 
 /* MOBILE -------------------------------------------------- */
-@media only screen and (max-width: 500px) and (orientation : portrait) {
+@media only screen and (max-device-width: 500px) and (orientation : portrait) {
 
   h1 {
     position: absolute;
     font-family: "unit-gothic-717";
-    font-size: 200px;
-    line-height: .8em;
-    padding-bottom: 10px;
-    top: 25vh;
-    left: 17vw;
-    width: 130%;
+    font-size: 48px;
+    line-height: .9em;
+    top: 17vh;
+    left: 15vw;
+    width: 80%;
   }
 
-  .fixed_h1 {
-    font-size: 180px;
-    top: 23vh;
+  .adapt_h1 {
+    font-size: 33px;
+    left: 14vw;
+    top: 18vh;
   }
 
   .subtitle {
     font-family: "unit-gothic-720";
-    font-size: 130px;
+    font-size: 44px;
+  }
+
+  .mobile-condense {
+    font-family: "unit-gothic-720";
+    display: inline;
+    font-size: 40px;
   }
 
   .vanti_subtitle {
@@ -149,20 +155,20 @@ header {
     font-family: "roboto mono";
     font-weight: 100;
     color: blue;
-    font-size: 300px;
+    font-size: 100px;
     position: fixed;
     top: -1vh;
-    left: 7vw;
+    left: 5vw;
     z-index: 20;
   }
 
   .mobile-fwd {
     font-family: "niveau-grotesk";
     font-weight: 200;
-    font-size: 270px;
+    font-size: 82px;
     position: fixed;
     top: -1vh;
-    left: 134vw;
+    left: 79vw;
     color: blue;
     z-index: 20;
   }
@@ -189,46 +195,39 @@ header {
     z-index: 20;
   }
 
-  /* body text & images---------------------------- */
+  /* body text---------------------------- */
 
   main {
     font-family: "roboto mono", monospace;
     font-weight: 100;
-    font-size: 85px;
+    font-size: 19px;
     position: absolute;
-    left: 17vw;
-    top: 65vh;
-    line-height: 1.4em;
+    left: 15vw;
+    top: 37vh;
+    line-height: 1.5em;
     z-index: 0;
-    width: 130%;
+    width: 78%;
   }
 
-  body {
-    background-color: white;
+  .adapt {
+    top: 32vh;
   }
 
-  .mcb, .salt, .fixed {
-    top: 55vh;
+  .muir {
+    top: 43vh;
   }
 
-.fixed {
-    font-size: 75px;
-    width: 115%;
+  .phase {
+    top: 40vh;
   }
 
+
+/* images ----------------------------------- */
   img {
     margin-bottom: 5%;
-    left: 5vw;
-    top: 670vh;
+    left: 13vw;
+    top: 672vh;
     position: relative;
-  }
-
-  .img {
-    display: flex;
-    flex-direction: column;
-    flex: 2;
-    z-index: 3;
-    width: 250%;
   }
 
   .adapt-img {
@@ -236,26 +235,35 @@ header {
     flex-direction: column;
     padding-bottom: 3%;
     position: relative;
-    top: 650vh;
-    width: 50%;
-
+    top: 337vh;
+    width: 80%;
   }
 
   .muir-img {
-    width: 50%;
+    width: 75%;
     border: 1px solid black;
-    top: 710vh;
+    top: 390vh;
+  }
+
+  .mcb-img {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    z-index: 3;
+    width: 80%;
+    top: 378vh;
   }
 
   .salt-img {
-    width: 50%;
-    top: 440vh;
+    width: 76%;
+    top: 258vh;
   }
 
   .kadist-img {
-    width: 117%;
-    left: 15vw;
-    top: 460vh;
+    width: 80%;
+    left: 13vw;
+    top: 275vh;
+    border: 1px solid black;
   }
 
   .dia-img {
@@ -263,9 +271,9 @@ header {
     flex-direction: column;
     padding-bottom: 3%;
     position: relative;
-    width: 120%;
-    left: 15vw;
-    top: 460vh;
+    width: 78%;
+    left: 13vw;
+    top: 295vh;
   }
 
   .dia-bigimg {
@@ -285,11 +293,11 @@ header {
 
   .kadist-video{
       position: absolute;
-      top: 480vh;
+      top: 295vh;
       border: none;
       left: 15vw;
-      width: 1150px;
-      height: 1150px;
+      width: 310px;
+      height: 310px;
   }
 
 
