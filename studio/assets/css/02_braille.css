@@ -126,7 +126,7 @@ header {
 }
 
 body{
-  background-image: linear-gradient(black 50%, #303131 90%);
+  background-color: black;
   padding: 100px 300px 100px 100px;
   height: 2000px;
 }

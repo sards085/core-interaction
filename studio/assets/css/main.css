@@ -95,23 +95,49 @@ header {
   color: blue;
 }
 
-/* mobile -------------------------------------------------- */
+/* 09 vantivelli--------------------  */
 
-@media only screen and (max-width: 400px) and (orientation : portrait) {
+.vanti-img{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  position: relative;
+  left: 10%;
+  top: 56vh;
+}
+
+.vanti-img.3 {
+  width: 40%;
+}
+
+/* MOBILE -------------------------------------------------- */
+
+@media only screen and (max-device-width: 400px) and (max-device-height: 643px) and (orientation : portrait) {
 
   h1 {
     position: absolute;
     font-family: "unit-gothic-717";
-    font-size: 36px;
-    line-height: 1em;
+    font-size: 200px;
+    line-height: .8em;
     padding-bottom: 10px;
-    top: 10vh;
-    left: 5vw;
+    top: 25vh;
+    left: 17vw;
+    width: 130%;
+  }
+
+  .fixed_h1 {
+    font-size: 180px;
+    top: 23vh;
   }
 
   .subtitle {
     font-family: "unit-gothic-720";
-    font-size: 37px;
+    font-size: 130px;
+  }
+
+  .vanti_subtitle {
+    display: none;
   }
 
   /* header---------------------------- */
@@ -124,19 +150,42 @@ header {
     font-family: "roboto mono";
     font-weight: 100;
     color: blue;
-    font-size: 74px;
+    font-size: 300px;
     position: fixed;
     top: -1vh;
+    left: 7vw;
     z-index: 20;
   }
 
   .mobile-fwd {
     font-family: "niveau-grotesk";
     font-weight: 200;
-    font-size: 60px;
+    font-size: 270px;
     position: fixed;
     top: -1vh;
-    left: 84vw;
+    left: 134vw;
+    color: blue;
+    z-index: 20;
+  }
+
+  .fixed_x {
+    font-family: "roboto mono";
+    font-weight: 100;
+    color: blue;
+    font-size: 280px;
+    position: fixed;
+    top: -1vh;
+    left: 7vw;
+    z-index: 20;
+  }
+
+  .fixed_mobile-fwd {
+    font-family: "niveau-grotesk";
+    font-weight: 200;
+    font-size: 240px;
+    position: fixed;
+    top: -1vh;
+    left: 121vw;
     color: blue;
     z-index: 20;
   }
@@ -146,19 +195,32 @@ header {
   main {
     font-family: "roboto mono", monospace;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 85px;
     position: absolute;
-    left: 6vw;
-    right: 10vw;
-    top: 25vh;
+    left: 17vw;
+    top: 65vh;
     line-height: 1.4em;
     z-index: 0;
+    width: 130%;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .mcb, .salt, .fixed {
+    top: 55vh;
+  }
+
+.fixed {
+    font-size: 75px;
+    width: 115%;
   }
 
   img {
     margin-bottom: 5%;
-    left: -4vw;
-    top: 282vh;
+    left: 5vw;
+    top: 670vh;
     position: relative;
   }
 
@@ -167,7 +229,7 @@ header {
     flex-direction: column;
     flex: 2;
     z-index: 3;
-    width: 165%;
+    width: 250%;
   }
 
   .adapt-img1 {
@@ -183,25 +245,42 @@ header {
   }
 
   .muir-img {
-    width: 45%;
+    width: 50%;
     border: 1px solid black;
+    top: 710vh;
   }
 
   .salt-img {
     width: 50%;
-    top: 168vh;
+    top: 440vh;
   }
 
   .kadist-img {
-    width: 82%;
-    left: 7vw;
-    top: 240vh;
+    width: 117%;
+    left: 15vw;
+    top: 460vh;
   }
 
-  .dia-img1, .dia-img2, .dia-img3 {
-    width: 80%;
-    left: 6vw;
-    top: 245vh;
+  .dia-img {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    position: relative;
+    width: 120%;
+    left: 15vw;
+    top: 460vh;
+  }
+
+  .dia-bigimg {
+    display: none;
+  }
+
+  .vanti-img {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    width: 120%;
+    top: 528vh;
   }
 
 
@@ -209,11 +288,12 @@ header {
 
   .kadist-video{
       position: absolute;
-      left: -55vw;
-      top: 250vh;
+      top: 480vh;
       border: none;
-      left: 7vw;
-      width: 82%;
+      left: 15vw;
+      width: 1150px;
+      height: 1150px;
   }
+
 
 }
