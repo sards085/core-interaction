@@ -20,6 +20,7 @@ body {
   color: black;
   cursor: url("../cursor1-02.png"), auto;
   z-index: 5;
+  text-transform: uppercase;
 }
 
 .modular p {
@@ -27,6 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   cursor: url("../cursor1-02.png"), auto;
+  text-transform: uppercase;
 }
 
 ::selection {
@@ -40,9 +42,6 @@ body {
   font-family: "unit-gothic-717";
 }
 
-.modualr {
-  text-transform: uppercase;
-}
 a {
   text-decoration: none;
   color: black;
