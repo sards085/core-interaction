@@ -40,6 +40,9 @@ body {
   font-family: "unit-gothic-717";
 }
 
+.modualr {
+  text-transform: uppercase;
+}
 a {
   text-decoration: none;
   color: black;
