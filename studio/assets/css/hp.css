@@ -71,8 +71,11 @@ img {
 }
 
 .img01{
+  width: 100%;
   display: none;
   position: fixed;
+  top: -30%;
+  left: 0;
   z-index: -5;
   filter: blur(8px);
 }
@@ -146,6 +149,16 @@ img {
   left: 8%;
   z-index: -5;
   filter: invert(1) blur(8px);
+}
+
+.img09 {
+  width: 90%;
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  z-index: -5;
+  filter: blur(8px);
 }
 
 @-webkit-keyframes spinoffPulse {

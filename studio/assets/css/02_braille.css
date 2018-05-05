@@ -1,14 +1,29 @@
 header {
   background-color: black;
-  position: fixed;
-  top: 7px;
-  padding-right: 20px;
-  padding-left: 20px;
-  z-index: 10;
-  border-bottom: 0.5px solid white;
-  margin-left: -108px;
+  border-bottom: 1px solid white;
 }
 
+body{
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  top: 104%;
+}
+
+p {
+  color: white;
+}
+
+main {
+  position: absolute;
+  top: 125vh;
+}
+
+p {
+  color: white;
+}
 
 .fwd, .back, .home {
   color: white;
@@ -17,19 +32,6 @@ header {
 
 .home {
   top: -1%;
-}
-
-.cursorarea {
-  width: 1400px;
-  height: 700px;
-  cursor: url('../cursors/handopen.png'), auto;
-  position: absolute;
-  top: 20px;
-  left: 0px;
-}
-
-.mouseDown {
-  cursor: url('../cursors/closedhand.png'), auto;
 }
 
 .letter {
@@ -109,43 +111,21 @@ header {
 
 .bare-grid{
   height: 400px;
-  margin-top: 50px;
-  margin-left: -60px;
+  position: absolute;
+  top: 21.5vh;
+  left: 3.5vw;
   z-index: 0;
   cursor: url('../cursors/handopen.png'), auto;
 }
 
 .black-bar {
   position: absolute;
-  top: 155px;
+  top: 21vh;
   left: 0;
   width: 1430px;
-  height: 10px;
-  z-index: 0;
+  height: 20px;
+  z-index: 2;
   background-color: black;
-}
-
-body{
-  background-color: black;
-  padding: 100px 300px 100px 100px;
-  height: 2000px;
-}
-
-.nav {
-  color: white;
-}
-
-main p{
-  color: white;
-}
-
-h1 {
-  color: white;
-  top: 104%;
-}
-
-a {
-  color: grey;
 }
 
 a:hover {
@@ -155,8 +135,4 @@ a:hover {
 
 ::selection {
   opacity: 0;
-}
-
-.dline, .dline:last-child, .vline{
-  background-color: white;
 }

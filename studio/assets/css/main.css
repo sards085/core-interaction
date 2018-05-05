@@ -12,10 +12,20 @@ h1 {
   margin-bottom: 0;
 }
 
-.subtitle {
+.phase_h1 {
+  top: 115%;
+}
+
+.archive_h1 {
+  top: 150%;
+}
+
+.subtitle, .vanti_subtitle {
   font-family: "unit-gothic-720";
   font-size: 50px;
 }
+
+
 
 main {
   font-family: "roboto mono", monospace;
@@ -28,6 +38,14 @@ main {
   margin-bottom: 5%;
   line-height: 1.5em;
   z-index: 0;
+}
+
+.phase {
+  top: 142%;
+}
+
+.archive {
+  top: 174%;
 }
 
 p {
@@ -95,21 +113,85 @@ header {
   color: blue;
 }
 
-/* 09 vantivelli--------------------  */
 
-.vanti-img{
-  width: 30%;
+/* IMG -- 01 adaptable type + 04 mcb--------------------  */
+
+.adapt-img, .mcb-img {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2%;
   position: relative;
-  left: 10%;
-  top: 56vh;
+  left: 12vw;
+  top: 50vh;
+  z-index: 3;
+  width: 30%;
+  margin-bottom: 3%;
 }
 
-.vanti-img.3 {
-  width: 40%;
+/* IMG -- 03 muirmcneil + 05 salt + 07 kadist + 08 dia--------------------  */
+
+.muir-img, .salt-img, .kadist-img, .dia-img, .vanti-img, .archive-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 12vw;
+  top: 56vh;
+  z-index: 3;
+  width: 30%;
+  margin-bottom: 3%;
+  border: 1px solid black;
 }
+
+.mobile_br {
+  display: none;
+}
+
+iframe {
+  position: absolute;
+  left: 8.5vw;
+  top: 95vh;
+  border: none;
+  height: 240px;
+}
+
+.dia-img, .vanti-img {
+  border: none;
+}
+
+.dia-bigimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: invert(100);
+  z-index: 15;
+  transition: 0.3s ease-in-out;
+}
+
+.dia-bigimg:hover {
+  opacity:0;
+}
+
+.archive_vid {
+  position: relative;
+  top: -160vh;
+  left: 2vw;
+  margin-right: 5px;
+  margin-bottom: -345px;
+}
+
+.archive-img {
+  top: 175vh
+}
+
+
+/* VIDEO -- 06 phase --------------------------------------------- */
+
+.phase_vid {
+  position: absolute;
+  top: 0;
+  left: 12vw;s
+}
+
 
 /* MOBILE -------------------------------------------------- */
 @media only screen and (max-device-width: 500px) and (orientation : portrait) {
@@ -122,6 +204,10 @@ header {
     top: 17vh;
     left: 13vw;
     width: 80%;
+  }
+
+  .mobile_br {
+    display: inline;
   }
 
   .adapt_h1 {

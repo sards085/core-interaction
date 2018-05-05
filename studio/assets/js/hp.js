@@ -120,3 +120,14 @@ post8.addEventListener('mouseout', function() {
 })
 
 //-------------------------------------------------//
+
+var img9 = document.querySelector('.img09');
+var post9 = document.querySelector('.post9');
+
+post9.addEventListener('mouseover', function(){
+	img9.style.display = "block";
+})
+
+post9.addEventListener('mouseout', function() {
+	img9.style.display="none";
+})
