@@ -212,8 +212,16 @@ iframe {
 
   .adapt_h1 {
     font-size: 33px;
-    left: 14vw;
+    left: 11vw;
     top: 18vh;
+  }
+
+  .braille_h1 {
+    top: 17vh;
+  }
+
+  .phase_h1 {
+    top: 17vh;
   }
 
   .subtitle {
@@ -286,11 +294,11 @@ iframe {
   main {
     font-family: "roboto mono", monospace;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 16px;
     position: absolute;
     left: 13vw;
     top: 37vh;
-    line-height: 1.5em;
+    line-height: 1.6em;
     z-index: 0;
     width: 78%;
   }
@@ -299,12 +307,20 @@ iframe {
     top: 32vh;
   }
 
+  .braille {
+    top: 37vh;
+  }
+
   .muir {
     top: 43vh;
   }
 
   .phase {
     top: 40vh;
+  }
+
+  blockquote {
+    display: none;
   }
 
 
@@ -323,6 +339,18 @@ iframe {
     position: relative;
     top: 368vh;
     width: 80%;
+  }
+
+  .bare-grid {
+    display: none;
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .black-bar {
+    display: none;
   }
 
   .muir-img {
@@ -386,5 +414,9 @@ iframe {
       height: 310px;
   }
 
-
+  .phase_vid {
+    width: 300px;
+    height: 300px;
+    top: 200vh;
+  }
 }
