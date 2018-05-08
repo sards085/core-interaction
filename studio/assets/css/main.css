@@ -228,11 +228,7 @@ iframe {
     top: 18vh;
   }
 
-  .braille_h1 {
-    top: 17vh;
-  }
-
-  .phase_h1 {
+  .braille_h1, .phase_h1, .archive_h1 {
     top: 17vh;
   }
 
@@ -241,10 +237,8 @@ iframe {
     font-size: 44px;
   }
 
-  .mobile-condense {
-    font-family: "unit-gothic-720";
-    display: inline;
-    font-size: 40px;
+  .subtitle.phase {
+    display: none;
   }
 
   .vanti_subtitle {
@@ -297,7 +291,7 @@ iframe {
     width: 79%;
   }
 
-  .adapt {
+  .adapt, .archive {
     top: 32vh;
   }
 
@@ -352,7 +346,7 @@ iframe {
   .muir-img {
     width: 75%;
     border: 1px solid black;
-    top: 435vh;
+    top: 255vh;
   }
 
   .mcb-img {
@@ -361,18 +355,18 @@ iframe {
     flex: 2;
     z-index: 3;
     width: 80%;
-    top: 415vh;
+    top: 235vh;
   }
 
   .salt-img {
     width: 76%;
-    top: 258vh;
+    top: 170vh;
   }
 
   .kadist-img {
     width: 80%;
-    left: 13vw;
-    top: 275vh;
+    left: 11vw;
+    top: 180vh;
     border: 1px solid black;
   }
 
@@ -382,8 +376,8 @@ iframe {
     padding-bottom: 3%;
     position: relative;
     width: 78%;
-    left: 13vw;
-    top: 295vh;
+    left: 11vw;
+    top: 137vh;
   }
 
   .dia-bigimg {
@@ -394,8 +388,14 @@ iframe {
     display: flex;
     flex-direction: column;
     padding-bottom: 3%;
-    width: 120%;
-    top: 528vh;
+    width: 80%;
+    top: 133vh;
+    left: 11vw;
+  }
+
+  .archive-img {
+    width: 80%;
+
   }
 
 
@@ -404,17 +404,28 @@ iframe {
 
   .kadist-video{
       position: absolute;
-      top: 295vh;
+      top: 198vh;
       border: none;
-      left: 15vw;
-      width: 310px;
-      height: 310px;
+      left: 13vw;
+      width: 290px;
+      height: 290px;
   }
 
   .phase_vid {
     width: 300px;
     height: 300px;
-    top: 200vh;
+    top: 158vh;
+  }
+
+  .archive_vid {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    top: 175vh;
+    left: 11.7vw;
   }
 
 
