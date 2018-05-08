@@ -127,6 +127,8 @@ img {
   width: 100%;
   display: none;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: -5;
   filter: blur(8px);
 }
@@ -157,6 +159,16 @@ img {
   position: fixed;
   top: 5%;
   left: 5%;
+  z-index: -5;
+  filter: blur(8px);
+}
+
+.img10 {
+  width: 150%;
+  display: none;
+  position: fixed;
+  top: -2vh;
+  left: -2vw;
   z-index: -5;
   filter: blur(8px);
 }

@@ -131,3 +131,16 @@ post9.addEventListener('mouseover', function(){
 post9.addEventListener('mouseout', function() {
 	img9.style.display="none";
 })
+
+//-------------------------------------------------//
+
+var img10 = document.querySelector('.img10');
+var post10 = document.querySelector('.post10');
+
+post10.addEventListener('mouseover', function(){
+	img10.style.display = "block";
+})
+
+post10.addEventListener('mouseout', function() {
+	img10.style.display="none";
+})

@@ -1,71 +1,4 @@
-
-h1 {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  font-family: "unit-gothic-717";
-  font-size: 60px;
-  line-height: .9em;
-  padding-bottom: 10px;
-  top: 30%;
-  left: 50%;
-  margin-bottom: 0;
-}
-
-.phase_h1 {
-  top: 115%;
-}
-
-.archive_h1 {
-  top: 150%;
-}
-
-.subtitle, .vanti_subtitle {
-  font-family: "unit-gothic-720";
-  font-size: 50px;
-}
-
-
-
-main {
-  font-family: "roboto mono", monospace;
-  font-weight: 100;
-  font-size: 20px;
-  position: absolute;
-  left: 50%;
-  right: 10%;
-  top: 55%;
-  margin-bottom: 5%;
-  line-height: 1.5em;
-  z-index: 0;
-}
-
-.phase {
-  top: 142%;
-}
-
-.archive {
-  top: 174%;
-}
-
-p {
-  color: black;
-}
-
-blockquote {
-  color: grey;
-}
-
-a {
-  color: grey;
-  text-decoration: none;
-  transition: 0.2s ease-in-out;
-}
-
-a:hover {
-  color: blue;
-  cursor: grabbing;
-}
+/* header & nav ------------------------------------ */
 
 header {
   padding-right: 20px;
@@ -78,7 +11,6 @@ header {
   border-bottom: 0.5px solid blue;
   margin: -8px;
 }
-
 
 .home {
   font-family: "roboto mono";
@@ -109,12 +41,91 @@ header {
   color: blue;
 }
 
+
+
+/* article titles ------------------------------------ */
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-family: "unit-gothic-717";
+  font-size: 60px;
+  line-height: .9em;
+  padding-bottom: 10px;
+  top: 30%;
+  left: 50%;
+  margin-bottom: 0;
+}
+
+.phase_h1 {
+  top: 115%;
+}
+
+.archive_h1 {
+  top: 150%;
+}
+
+.subtitle, .vanti_subtitle {
+  font-family: "unit-gothic-720";
+  font-size: 50px;
+}
+
+
+
+/* body text (main) -------------------------------------- */
+
+p {
+  color: black;
+}
+
+main {
+  font-family: "roboto mono", monospace;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  right: 10%;
+  top: 55%;
+  margin-bottom: 5%;
+  line-height: 1.5em;
+  z-index: 0;
+}
+
+.phase {
+  top: 142%;
+}
+
+.archive {
+  top: 174%;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: blue;
+  cursor: grabbing;
+}
+
+blockquote {
+  color: grey;
+}
+
+.mobile_br {
+  display: none;
+}
+
 ::selection {
   color: blue;
 }
 
 
-/* IMG -- 01 adaptable type + 04 mcb--------------------  */
+
+/* IMG -- 01 + 04--------------------  */
 
 .adapt-img, .mcb-img {
   display: flex;
@@ -127,7 +138,9 @@ header {
   margin-bottom: 3%;
 }
 
-/* IMG -- 03 muirmcneil + 05 salt + 07 kadist + 08 dia--------------------  */
+
+
+/* IMG -- 03 + 05 + 07 + 08--------------------  */
 
 .muir-img, .salt-img, .kadist-img, .dia-img, .vanti-img, .archive-img {
   display: flex;
@@ -139,18 +152,6 @@ header {
   width: 30%;
   margin-bottom: 3%;
   border: 1px solid black;
-}
-
-.mobile_br {
-  display: none;
-}
-
-iframe {
-  position: absolute;
-  left: 8.5vw;
-  top: 95vh;
-  border: none;
-  height: 240px;
 }
 
 .dia-img, .vanti-img {
@@ -171,6 +172,28 @@ iframe {
   opacity:0;
 }
 
+.archive-img {
+  top: 175vh
+}
+
+
+
+/* VIDEO -- 06 + 10 --------------------------------------------- */
+
+iframe {
+  position: absolute;
+  left: 8.5vw;
+  top: 95vh;
+  border: none;
+  height: 240px;
+}
+
+.phase_vid {
+  position: absolute;
+  top: 0;
+  left: 12vw;
+}
+
 .archive_vid {
   position: relative;
   top: -160vh;
@@ -179,21 +202,10 @@ iframe {
   margin-bottom: -345px;
 }
 
-.archive-img {
-  top: 175vh
-}
-
-
-/* VIDEO -- 06 phase --------------------------------------------- */
-
-.phase_vid {
-  position: absolute;
-  top: 0;
-  left: 12vw;s
-}
 
 
 /* MOBILE -------------------------------------------------- */
+
 @media only screen and (max-device-width: 500px) and (orientation : portrait) {
 
   h1 {
@@ -211,8 +223,8 @@ iframe {
   }
 
   .adapt_h1 {
-    font-size: 33px;
-    left: 11vw;
+    font-size: 31px;
+    left: 11.5vw;
     top: 18vh;
   }
 
@@ -239,7 +251,9 @@ iframe {
     display: none;
   }
 
-  /* header---------------------------- */
+
+
+  /* header + nav---------------------------- */
 
   header {
     display: none;
@@ -267,40 +281,20 @@ iframe {
     z-index: 20;
   }
 
-  .fixed_x {
-    font-family: "roboto mono";
-    font-weight: 100;
-    color: blue;
-    font-size: 280px;
-    position: fixed;
-    top: -1vh;
-    left: 7vw;
-    z-index: 20;
-  }
 
-  .fixed_mobile-fwd {
-    font-family: "niveau-grotesk";
-    font-weight: 200;
-    font-size: 240px;
-    position: fixed;
-    top: -1vh;
-    left: 121vw;
-    color: blue;
-    z-index: 20;
-  }
 
   /* body text---------------------------- */
 
   main {
     font-family: "roboto mono", monospace;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 100;
+    font-size: 14px;
     position: absolute;
     left: 13vw;
     top: 37vh;
-    line-height: 1.6em;
+    line-height: 1.5em;
     z-index: 0;
-    width: 78%;
+    width: 79%;
   }
 
   .adapt {
@@ -324,7 +318,9 @@ iframe {
   }
 
 
+
 /* images ----------------------------------- */
+
   img {
     margin-bottom: 5%;
     left: 13vw;
@@ -337,7 +333,7 @@ iframe {
     flex-direction: column;
     padding-bottom: 3%;
     position: relative;
-    top: 368vh;
+    top: 210vh;
     width: 80%;
   }
 
@@ -403,6 +399,7 @@ iframe {
   }
 
 
+
   /* iframe & video-------------------------- */
 
   .kadist-video{
@@ -419,4 +416,7 @@ iframe {
     height: 300px;
     top: 200vh;
   }
+
+
+
 }

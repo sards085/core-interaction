@@ -1,17 +1,19 @@
 p {
-  font-family: "unit-gothic-718";
+  font-family: "unit-gothic-717";
   line-height: 1em;
-  font-size: 80px;
+  font-size: 60px;
   display: flex;
   margin: 0;
+  color: blue;
 }
 
 section {
   font-family: "unit-gothic-720";
-  font-size: 80px;
+  font-size: 60px;
   padding-bottom: 0;
   margin-bottom: 0;
   margin-top: 80px;
+  color:blue;
 }
 
 body {
