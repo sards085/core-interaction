@@ -72,3 +72,43 @@ a:hover {
     0% { -webkit-transform:rotate(0deg); }
 100% { -webkit-transform:rotate(-360deg); }
 }
+
+
+/* ---------------------------------------------  */
+
+@media only screen and (max-device-width: 500px) and (orientation : portrait) {
+
+  section {
+    font-family: "unit-gothic-717";
+    font-size: 70px;
+    line-height: 1em;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    color:blue;
+  }
+
+  p {
+    font-family: "roboto mono";
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 50px;
+    display: flex;
+    margin: 0;
+    color: blue;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .mobile-about-back {
+    font-family: "niveau-grotesk";
+    color: blue;
+    font-size: 250px;
+    position: relative;
+    left: calc(50% - 180px);
+    top: -0.5vh;
+
+  }
+
+}
