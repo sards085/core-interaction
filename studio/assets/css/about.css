@@ -68,6 +68,10 @@ a:hover {
   color: black;
 }
 
+.mobile-about-back {
+  display: none;
+}
+
 @-webkit-keyframes spinoffPulse {
     0% { -webkit-transform:rotate(0deg); }
 100% { -webkit-transform:rotate(-360deg); }
