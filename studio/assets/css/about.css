@@ -82,16 +82,17 @@ a:hover {
 
 @media only screen and (max-device-width: 500px) and (orientation : portrait) {
 
-  section {
+  .about-header{
     font-family: "unit-gothic-717";
-    font-size: 70px;
+    font-size: 90px;
     line-height: 1em;
     padding-bottom: 0;
     margin-bottom: 20px;
-    color:blue;
+    color: blue;
+    width: 120%;
   }
 
-  p {
+  .about-body {
     font-family: "roboto mono";
     font-weight: 300;
     line-height: 1.2em;
@@ -107,11 +108,11 @@ a:hover {
 
   .mobile_about-home {
     font-family: "niveau-grotesk";
-    font-size: 200px;
+    font-size: 250px;
     color: blue;
     position: relative;
-    left: calc(50% - 150px);
-    top: 11vh;
+    left: 3vw;
+    top: 15vh;
 
   }
 
