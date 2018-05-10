@@ -28,8 +28,10 @@ header {
   font-size: 70px;
   position: fixed;
   top: -2%;
-  left: 95vw;
+  left: 94vw;
   color: blue;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .back {
@@ -38,6 +40,7 @@ header {
   font-size: 70px;
   position: fixed;
   top: -2%;
+  left: 1.5vw;
   color: blue;
 }
 
@@ -123,9 +126,24 @@ blockquote {
   color: blue;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+    /* border-right: 1px solid blue; */
+    border-left: 1px solid blue;
+}
+
+body::-webkit-scrollbar-thumb {
+   border: 1px solid blue;
+   border-right: none;
+}
 
 
-/* IMG -- 01 + 04--------------------  */
+
+/* IMG -- 01 + 02 + 04--------------------  */
 
 .adapt-img, .mcb-img {
   display: flex;
@@ -138,7 +156,15 @@ blockquote {
   margin-bottom: 3%;
 }
 
+.braille_img-mobile img{
+  display: none;
+  width: 200px;
+  height: 100px;
+}
 
+.braille_img-mobile {
+  display: none;
+}
 
 /* IMG -- 03 + 05 + 07 + 08--------------------  */
 
@@ -270,7 +296,7 @@ iframe {
     font-size: 82px;
     position: fixed;
     top: -1vh;
-    left: 79vw;
+    left: 77vw;
     color: blue;
     z-index: 20;
   }
@@ -315,12 +341,12 @@ iframe {
 
 /* images ----------------------------------- */
 
-  img {
+  /* img {
     margin-bottom: 5%;
     left: 13vw;
     top: 672vh;
     position: relative;
-  }
+  } */
 
   .adapt-img {
     display: flex;
@@ -337,6 +363,16 @@ iframe {
 
   .letter {
     display: none;
+  }
+
+  .braille_img-mobile {
+    display: block;
+    position: relative;
+    width: 310px;
+    height: auto;
+    top: 220vh;
+    left: 8vw;
+    margin-bottom: 30px;
   }
 
   .black-bar {

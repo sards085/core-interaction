@@ -173,6 +173,21 @@ img {
   filter: blur(8px);
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+    /* border-right: 1px solid blue; */
+    border-left: 1px solid black;
+}
+
+body::-webkit-scrollbar-thumb {
+   border: 1px solid black;
+   
+}
+
 @-webkit-keyframes spinoffPulse {
     0% { -webkit-transform:rotate(150deg); }
 100% { -webkit-transform:rotate(-150deg); }

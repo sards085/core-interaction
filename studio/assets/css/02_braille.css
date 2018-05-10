@@ -34,7 +34,6 @@ p {
   position: absolute;
   z-index: 5;
   cursor: url('../cursors/handopen.png'), auto;
-  width: 100%;
 }
 
 .letter.a{
@@ -125,6 +124,7 @@ p {
   background-color: black;
 }
 
+
 a:hover {
   color: white;
   cursor: grabbing;
@@ -132,4 +132,18 @@ a:hover {
 
 ::selection {
   opacity: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+    /* border-right: 1px solid blue; */
+    border-left: 1px solid white;
+}
+
+body::-webkit-scrollbar-thumb {
+   border: 1px solid white;
 }

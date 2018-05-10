@@ -72,6 +72,21 @@ a:hover {
   display: none;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+    /* border-right: 1px solid blue; */
+    border-left: 1px solid blue;
+}
+
+body::-webkit-scrollbar-thumb {
+   border: 1px solid blue;
+   border-right: none;
+}
+
 @-webkit-keyframes spinoffPulse {
     0% { -webkit-transform:rotate(0deg); }
 100% { -webkit-transform:rotate(-360deg); }
