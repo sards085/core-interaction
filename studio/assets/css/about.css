@@ -68,7 +68,7 @@ a:hover {
   color: black;
 }
 
-.mobile-about-back {
+.mobile_about-home {
   display: none;
 }
 
@@ -127,7 +127,7 @@ body::-webkit-scrollbar-thumb {
     color: blue;
     position: relative;
     left: 3vw;
-    top: 15vh;
+    top: 13vh;
 
   }
 
