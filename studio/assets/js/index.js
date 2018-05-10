@@ -39,3 +39,10 @@ window.addEventListener('click', function(event) {
   dot.style.left = event.pageX + 'px'
   document.body.appendChild(dot)
 });
+
+var md = new MobileDetect(window.navigator.userAgent);
+
+if (md.phone()) {
+	window.location.href="hp.html"
+	console.log('hey its a phone')
+}
