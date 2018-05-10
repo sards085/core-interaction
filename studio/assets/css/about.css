@@ -95,7 +95,7 @@ a:hover {
     font-family: "roboto mono";
     font-weight: 300;
     line-height: 1.2em;
-    font-size: 50px;
+    font-size: 48px;
     display: flex;
     margin: 0;
     color: blue;
@@ -105,14 +105,17 @@ a:hover {
     display: none;
   }
 
-  .mobile-about-back {
+  .mobile_about-home {
     font-family: "niveau-grotesk";
+    font-size: 200px;
     color: blue;
-    font-size: 250px;
     position: relative;
-    left: calc(50% - 180px);
-    top: -0.5vh;
+    left: calc(50% - 150px);
+    top: 11vh;
 
   }
 
+  .desktop-br{
+    display: none;
+  }
 }

@@ -12,10 +12,6 @@ h1 {
   top: 104%;
 }
 
-p {
-  color: white;
-}
-
 main {
   position: absolute;
   top: 125vh;
@@ -38,35 +34,36 @@ p {
   position: absolute;
   z-index: 5;
   cursor: url('../cursors/handopen.png'), auto;
+  width: 100%;
 }
 
 .letter.a{
-  top: 210px;
-  left: 95px;
-  width: 90px;
-  height: 90px;
+  top: 29vh;
+  left: 6.5vw;
+  width: 92px;
+  height: 92px;
 }
 
 .letter.a img {
   position: absolute;
-  width: 90px;
+  width: 100%;
 }
 
 .letter.b {
-	left: 295px;
-  top: 200px;
+  top: 27vh;
+  left: 20.5vw;
   width: 120px;
   height: 220px;
 }
 
 .letter.b img {
   position: absolute;
-  width: 120px;
+  width: 100%;
 }
 
-.letter.c{
-  left: 520px;
-  top: 200px;
+.letter.c {
+  top: 27.5vh;
+  left: 36vw;
   width: 150px;
   height: 120px;
 }
@@ -77,8 +74,8 @@ p {
 }
 
 .letter.d {
-  left: 745px;
-  top: 195px;
+  top: 26.5vh;
+  left: 51.5vw;
   width: 200px;
   height: 221px;
 }
@@ -89,8 +86,8 @@ p {
 }
 
 .letter.e {
-  left: 965px;
-  top: 190px;
+  top: 26vh;
+  left: 67vw;
   width: 200px;
   height: 225px;
 }
@@ -101,8 +98,8 @@ p {
 }
 
 .letter.f {
-  left: 1175px;
-  top: 190px
+  top: 26vh;
+  left: 81.5vw;
 }
 
 .letter.f img {
