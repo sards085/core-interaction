@@ -7,7 +7,6 @@
     z-index: 10;
 }
 
-
 .modular {
   font-size: 70px;
   font-family: "unit-gothic-717";
@@ -54,6 +53,88 @@
   position: absolute;
   width: 80px;
   height: 100px;
+}
+
+/* about page------------------------------- */
+
+.about-header {
+  font-family: "unit-gothic-717";
+  font-size: 60px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 80px;
+  color:blue;
+}
+
+.about-p {
+  font-family: "roboto mono";
+  line-height: 1em;
+  font-size: 60px;
+  display: flex;
+  margin: 0;
+  color: blue;
+}
+
+.about-header {
+  font-family: "unit-gothic-717";
+  font-size: 60px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 80px;
+  color:blue;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  margin-right: 50px;
+  cursor: url('../cursors/handopen.png'), auto;
+  margin-bottom: 50px;
+}
+
+.about-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.2px solid blue;
+  position: fixed;
+  left: 82%;
+  top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: spinoffPulse 9s infinite linear;
+  cursor: url('../cursors/handopen.png'), auto;
+  z-index: 2;
+}
+
+.about-circle:hover {
+  border: 1.2px solid black;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.about-q a {
+  font-family: "roboto mono";
+  font-weight: 400;
+  font-size: 200px;
+  z-index: 2;
+  color: blue;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.about-q a:hover {
+  color: black;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.mobile_about-home {
+  display: none;
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
 }
 
 
@@ -286,87 +367,6 @@ iframe {
   margin-bottom: -345px;
 }
 
-/* about page------------------------------- */
-
-.about-header {
-  font-family: "unit-gothic-717";
-  font-size: 60px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 80px;
-  color:blue;
-}
-
-.about-p {
-  font-family: "roboto mono";
-  line-height: 1em;
-  font-size: 60px;
-  display: flex;
-  margin: 0;
-  color: blue;
-}
-
-.about-header {
-  font-family: "unit-gothic-717";
-  font-size: 60px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 80px;
-  color:blue;
-}
-
-.about-body {
-  display: flex;
-  flex-direction: column;
-  padding-left: 80px;
-  margin-right: 50px;
-  cursor: url('../cursors/handopen.png'), auto;
-  margin-bottom: 50px;
-}
-
-.about-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1.2px solid blue;
-  position: fixed;
-  left: 82%;
-  top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -webkit-animation: spinoffPulse 9s infinite linear;
-  cursor: url('../cursors/handopen.png'), auto;
-  z-index: 2;
-}
-
-.about-circle:hover {
-  border: 1.2px solid black;
-  cursor: url('../cursors/bluehandopen.png'), auto;
-}
-
-.about-q a {
-  font-family: "roboto mono";
-  font-weight: 400;
-  font-size: 200px;
-  z-index: 2;
-  color: blue;
-  cursor: url('../cursors/bluehandopen.png'), auto;
-}
-
-.about-q a:hover {
-  color: black;
-  cursor: url('../cursors/bluehandopen.png'), auto;
-}
-
-.mobile_about-home {
-  display: none;
-}
-
-@-webkit-keyframes spinoffPulse {
-    0% { -webkit-transform:rotate(0deg); }
-100% { -webkit-transform:rotate(-360deg); }
-}
 
 /* MOBILE -------------------------------------------------- */
 
@@ -631,14 +631,14 @@ iframe {
   font-size: 250px;
   color: blue;
   position: relative;
-  top: 14vh;
+  top: 10vh;
 }
 
 .desktop-br{
   display: none;
 }
 
-
+}
 
 /* ------------------------------------------- */
 
