@@ -1,3 +1,63 @@
+/* splash page  -----------------------------------------*/
+
+.index-body body{
+    cursor: url("../cursor1-02.png"), auto;
+    width: 100%;
+    height: 1200px;
+    z-index: 10;
+}
+
+
+.modular {
+  font-size: 70px;
+  font-family: "unit-gothic-717";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-wrap: no-wrap;
+  top: calc(50% - 50px);
+  left: 10%;
+  color: black;
+  cursor: url("../cursor1-02.png"), auto;
+  z-index: 5;
+  text-transform: uppercase;
+}
+
+.modular p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: url("../cursor1-02.png"), auto;
+  text-transform: uppercase;
+}
+
+.dot {
+  position: absolute;
+  color: black;
+  font-family: "unit-gothic-717";
+}
+
+ .about-enter {
+  text-decoration: none;
+  color: black;
+  cursor: url("../cursors/handopen.png"), auto;
+}
+
+.about-enter:hover {
+  color: blue;
+  cursor: url("../cursors/bluehandopen.png"), auto;
+}
+
+.whiteblock {
+  background-color: white;
+  position: absolute;
+  width: 80px;
+  height: 100px;
+}
+
+
+
 /* header & nav ------------------------------------ */
 
 header {
@@ -73,8 +133,6 @@ h1 {
   font-family: "unit-gothic-720";
   font-size: 50px;
 }
-
-
 
 /* body text (main) -------------------------------------- */
 
@@ -228,7 +286,87 @@ iframe {
   margin-bottom: -345px;
 }
 
+/* about page------------------------------- */
 
+.about-header {
+  font-family: "unit-gothic-717";
+  font-size: 60px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 80px;
+  color:blue;
+}
+
+.about-p {
+  font-family: "roboto mono";
+  line-height: 1em;
+  font-size: 60px;
+  display: flex;
+  margin: 0;
+  color: blue;
+}
+
+.about-header {
+  font-family: "unit-gothic-717";
+  font-size: 60px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 80px;
+  color:blue;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  margin-right: 50px;
+  cursor: url('../cursors/handopen.png'), auto;
+  margin-bottom: 50px;
+}
+
+.about-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.2px solid blue;
+  position: fixed;
+  left: 82%;
+  top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: spinoffPulse 9s infinite linear;
+  cursor: url('../cursors/handopen.png'), auto;
+  z-index: 2;
+}
+
+.about-circle:hover {
+  border: 1.2px solid black;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.about-q a {
+  font-family: "roboto mono";
+  font-weight: 400;
+  font-size: 200px;
+  z-index: 2;
+  color: blue;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.about-q a:hover {
+  color: black;
+  cursor: url('../cursors/bluehandopen.png'), auto;
+}
+
+.mobile_about-home {
+  display: none;
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
+}
 
 /* MOBILE -------------------------------------------------- */
 
@@ -344,13 +482,6 @@ iframe {
 
 
 /* images ----------------------------------- */
-
-  /* img {
-    margin-bottom: 5%;
-    left: 13vw;
-    top: 672vh;
-    position: relative;
-  } */
 
   .adapt-img {
     display: flex;
@@ -468,6 +599,47 @@ iframe {
     left: 11.7vw;
   }
 
+
+/* about page mobile------------------------------------------- */
+
+.about-header{
+  font-family: "unit-gothic-717";
+  font-size: 90px;
+  line-height: 1em;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  color: blue;
+  width: 120%;
+}
+
+.about-body {
+  font-family: "roboto mono";
+  font-weight: 300;
+  line-height: 1.2em;
+  font-size: 48px;
+  display: flex;
+  margin: 0;
+  color: blue;
+}
+
+.about-circle {
+  display: none;
+}
+
+.mobile-about-home {
+  font-family: "niveau-grotesk";
+  font-size: 250px;
+  color: blue;
+  position: relative;
+  top: 14vh;
+}
+
+.desktop-br{
+  display: none;
+}
+
+
+
 /* ------------------------------------------- */
 
 }
@@ -481,8 +653,9 @@ iframe {
     left: 92vw;
   }
 
-
 }
+
+/* ------------------------------------------- */
 
 @media (max-width: 900px) {
   .fwd {
