@@ -488,7 +488,7 @@ iframe {
     flex-direction: column;
     padding-bottom: 3%;
     position: relative;
-    top: 220vh;
+    top: 245vh;
     width: 80%;
   }
 
@@ -517,7 +517,7 @@ iframe {
   .muir-img {
     width: 75%;
     border: 1px solid black;
-    top: 263vh;
+    top: 283vh;
   }
 
   .mcb-img {
@@ -526,18 +526,18 @@ iframe {
     flex: 2;
     z-index: 3;
     width: 80%;
-    top: 245vh;
+    top: 265vh;
   }
 
   .salt-img {
     width: 76%;
-    top: 180vh;
+    top: 190vh;
   }
 
   .kadist-img {
     width: 80%;
     left: 11vw;
-    top: 188vh;
+    top: 197vh;
     border: 1px solid black;
   }
 
@@ -548,7 +548,7 @@ iframe {
     position: relative;
     width: 78%;
     left: 11vw;
-    top: 143vh;
+    top: 152vh;
   }
 
   .dia-bigimg {
@@ -560,7 +560,7 @@ iframe {
     flex-direction: column;
     padding-bottom: 3%;
     width: 80%;
-    top: 140vh;
+    top: 150vh;
     left: 11vw;
   }
 
@@ -575,7 +575,7 @@ iframe {
 
   .kadist-video{
       position: absolute;
-      top: 205vh;
+      top: 215vh;
       border: none;
       left: 13vw;
       width: 290px;
@@ -585,7 +585,7 @@ iframe {
   .phase_vid {
     width: 300px;
     height: 300px;
-    top: 163vh;
+    top: 170vh;
   }
 
   .archive_vid {
